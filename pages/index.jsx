@@ -1,89 +1,82 @@
-import Head from 'next/head'
-import { Container, Row, Card, Button } from 'react-bootstrap'
+import {Jumbotron, Row, Card, Col} from 'react-bootstrap'
 
-export default function Home() {
+import Layout from '../components/layout';
+import Spotlight from '../components/spotlight';
+
+import styles from './index.module.scss';
+
+const index = () => {
+  const tournamentDates = 'April 22-24, 2022';
+  const year = 2022;
+  const tournamentName = 'OKClassic';
+  const city = 'Oklahoma City, OK';
+  const logoPath = '/images/logo.jpg';
+  const logoAltText = 'OKClassic logo';
+  const paragraphs = [
+    'Join us in Oklahoma City as we showcase the best of the midwest.)',
+    'It all starts with a 9-pin No-Tap sweeper on Friday. Bowling starts at 7pm, so come to AMF Windsor Lanes to both register for the tournament and sign up for the sweeper!',
+  ]
+
+  const jumbotronClasses = ['d-flex', 'flex-column-reverse', 'align-items-end'];
+  jumbotronClasses.push(styles.JumbotronImage);
+
   return (
-    <Container className="md-container">
-      <Head>
-        <title>ReactJS with react-bootstrap</title>
-        <link rel="icon" href="/favicon-32x32.png" />
-      </Head>
-      <Container>
-        <h1>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-        <p>
-          Get started by editing <code>pages/index.js</code>
-        </p>
-        <Container>
-          <Row className="justify-content-md-between">
-            <Card className="sml-card">
-              <Card.Body>
-                <Card.Title>Documentation</Card.Title>
-                <Card.Text>
-                  Find in-depth information about Next.js features and API.
-                </Card.Text>
-                <Button variant="primary" href="https://nextjs.org/docs">
-                  More &rarr;
-                </Button>
-              </Card.Body>
-            </Card>
-            <Card className="sml-card">
-              <Card.Body>
-                <Card.Title>Learn</Card.Title>
-                <Card.Text>
-                  Learn about Next.js in an interactive course with quizzes!
-                </Card.Text>
-                <Button variant="primary" href="https://nextjs.org/learn">
-                  More &rarr;
-                </Button>
-              </Card.Body>
-            </Card>
-          </Row>
-          <Row className="justify-content-md-between">
-            <Card className="sml-card">
-              <Card.Body>
-                <Card.Title>Examples</Card.Title>
-                <Card.Text>
-                  Discover and deploy boilerplate example Next.js projects.
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  href="https://github.com/vercel/next.js/tree/master/examples"
-                >
-                  More &rarr;
-                </Button>
-              </Card.Body>
-            </Card>
-            <Card className="sml-card">
-              <Card.Body>
-                <Card.Title>Deploy</Card.Title>
-                <Card.Text>
-                  Instantly deploy your Next.js site to a public URL with
-                  Vercel.
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  href="https://vercel.com/new?utm_source=github&utm_medium=example&utm_campaign=next-example"
-                >
-                  More &rarr;
-                </Button>
-              </Card.Body>
-            </Card>
-          </Row>
-        </Container>
-      </Container>
+    <Layout home={true}>
 
-      <footer className="cntr-footer">
-        <a
-          href="https://vercel.com?filter=next.js&utm_source=github&utm_medium=example&utm_campaign=next-example"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="sml-logo" />
-        </a>
-      </footer>
-    </Container>
+      <Jumbotron className={jumbotronClasses.join(' ')}>
+        <h1 className="display-1">
+          <span className={styles.Title}>
+            {tournamentName}
+          </span>
+          <span className={styles.Year}>
+            {year}
+          </span>
+        </h1>
+      </Jumbotron>
+
+      <Row>
+        <Col xs={12} md={8} lg={4}>
+          <Card>
+            <Card.Header>
+              <Card.Title>
+                {/*<h4>*/}
+                {tournamentDates}
+                {/*</h4>*/}
+              </Card.Title>
+              <Card.Subtitle className="text-muted">
+                {city}
+              </Card.Subtitle>
+            </Card.Header>
+            <Card.Body>
+              <div className="d-lg-none">
+                <img className="float-right img-fluid col-6 p-0"
+                     src={logoPath}
+                     alt={logoAltText}
+                />
+              </div>
+              {paragraphs.map((graf, i) => {
+                return (
+                  <Card.Text key={i}>
+                    {graf}
+                  </Card.Text>
+                );
+              })}
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col lg={4} className="d-none d-lg-block">
+          <img className="img-fluid"
+               src={logoPath}
+               alt={logoAltText}
+          />
+        </Col>
+
+        <Spotlight />
+      </Row>
+
+    </Layout>
   )
 }
+
+export default index;
