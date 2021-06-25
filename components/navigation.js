@@ -20,15 +20,15 @@ const navigation = ({active}) => {
           <NavLink href="/center">
             Bowling Center
           </NavLink>
-          <NavLink href="/okc">
-            Oklahoma City
-          </NavLink>
+          {/*<NavLink href="/okc">*/}
+          {/*  Oklahoma City*/}
+          {/*</NavLink>*/}
           <NavLink href="/rules">
             Rules
           </NavLink>
-          <NavLink href="/contact">
-            Contact
-          </NavLink>
+          {/*<NavLink href="/contact">*/}
+          {/*  Contact*/}
+          {/*</NavLink>*/}
           <NavLink href="/results">
             Results
           </NavLink>

@@ -13,7 +13,7 @@ const index = () => {
   const logoPath = '/images/logo.jpg';
   const logoAltText = 'OKClassic logo';
   const paragraphs = [
-    'Join us in Oklahoma City as we showcase the best of the midwest.)',
+    'Join us in Oklahoma City as we showcase the best of the midwest.',
     'It all starts with a 9-pin No-Tap sweeper on Friday. Bowling starts at 7pm, so come to AMF Windsor Lanes to both register for the tournament and sign up for the sweeper!',
   ]
 
