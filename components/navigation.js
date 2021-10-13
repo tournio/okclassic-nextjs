@@ -20,6 +20,9 @@ const navigation = ({active}) => {
           <NavLink href="/center">
             Bowling Center
           </NavLink>
+          <NavLink href="/hotels">
+            Host Hotels
+          </NavLink>
           {/*<NavLink href="/okc">*/}
           {/*  Oklahoma City*/}
           {/*</NavLink>*/}
