@@ -9,7 +9,16 @@ const spotlight = () => {
 
   const text = (
     <Card.Text>
-      After a tough year-plus enduring the pandemic, we're working hard putting together the OKClassic 2022, in a way that will be both fun and safe for everyone. Keep your eyes peeled!
+      <p>
+        After a tough year-plus enduring the pandemic, we're working hard putting together the OKClassic 2022, in a way that will be both fun and safe for everyone. Keep your eyes peeled!
+      </p>
+      <p>
+        Reservations at
+        <a href="/hotels">
+          {' '}our host hotels{' '}
+        </a>
+        are now available!
+      </p>
     </Card.Text>
   );
 
