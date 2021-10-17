@@ -18,8 +18,9 @@ const district = () => {
     'Nightclub',
     'Restaurant coming soon',
     'Tournament rate: $79/night',
-    'Reservations available April 22-24, 2022',
-    'Promotion code: OK Bowling Tournament',
+    'Promotion code: OK Classic Bowling Tournament',
+    'Reservations available April 21-24, 2022',
+    'Must book by April 16',
   ];
   const photoDeets = [
     {alt: 'Lounge Bar', filename: 'lounge_bar'},
