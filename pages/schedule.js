@@ -9,63 +9,103 @@ import styles from './schedule.module.scss';
 
 const schedule = () => {
     const days = new Map();
-    // days.set('2021-08-13', [
-    //     {
-    //       type: 'register',
-    //       start: '18:00:00',
-    //       end: '20:30:00',
-    //       name: ' Registration',
-    //       where: 'Plano Super Bowl',
-    //       additional: 'Event Room - behind lanes 1-6',
-    //     },
-    //     {
-    //       type: 'bowling',
-    //       start: '20:00:00',
-    //       end: '23:00:00',
-    //       name: 'Optional 9-pin No-Tap Event',
-    //       where: 'Plano Super Bowl',
-    //       additional: '3 games; $20 per bowler; 3 average divisions; scratch scores',
-    //     },
-    //   ]
-    // );
-    // days.set('2021-08-14', [
-    //     {
-    //       type: 'register',
-    //       start: '10:00:00',
-    //       end: '11:45:00',
-    //       name: 'All Tournament Registration',
-    //       where: 'Plano Super Bowl',
-    //       additional: 'Event Room - behind lanes 1-6',
-    //     },
-    //     {
-    //       type: 'bowling',
-    //       start: '12:00:00',
-    //       end: '18:00:00',
-    //       name: 'Singles and Doubles Events',
-    //       where: 'Plano Super Bowl',
-    //       additional: '45-minute break between events',
-    //     },
-    //   ]
-    // );
-    // days.set('2021-08-15', [
-    //     {
-    //       type: 'bowling',
-    //       start: '10:00:00',
-    //       end: '13:00:00',
-    //       name: 'Team Event',
-    //       where: 'Plano Super Bowl',
-    //       additional: null,
-    //     },
-    //     {
-    //       type: 'bowling',
-    //       start: '13:30:00',
-    //       end: '16:00:00',
-    //       name: 'Scratch Shootout',
-    //       where: 'Plano Super Bowl',
-    //       additional: null,
-    //     },
-    //   ]
-    // );
+    days.set('2022-04-22', [
+        {
+          type: 'register',
+          start: '17:00:00',
+          end: '21:00:00',
+          name: 'Registration',
+          where: 'AMF Windsor Lanes',
+          additional: null,
+        },
+        {
+          type: 'bowling',
+          start: '19:00:00',
+          end: '21:00:00',
+          name: 'Optional 9-pin No-Tap',
+          where: 'AMF Windsor Lanes',
+          additional: null,
+        },
+        {
+          type: 'social',
+          start: '19:00:00',
+          end: '23:59:00',
+          name: 'Hospitality Suite',
+          where: 'Radisson Hotel OKC Airport',
+          additional: null,
+        },
+      ]
+    );
+    days.set('2022-04-23', [
+        {
+          type: 'register',
+          start: '08:00:00',
+          end: '09:00:00',
+          name: 'All Tournament Registration',
+          where: 'AMF Windsor Lanes',
+          additional: null,
+        },
+        {
+          type: 'bowling',
+          start: '09:00:00',
+          end: '12:00:00',
+          name: 'Doubles Event',
+          where: 'AMF Windsor Lanes',
+          additional: null,
+        },
+        {
+          type: 'bowling',
+          start: '13:00:00',
+          end: '16:00:00',
+          name: 'Team Event',
+          where: 'AMF Windsor Lanes',
+          additional: null,
+        },
+        {
+          type: 'social',
+          start: '19:00:00',
+          end: '23:59:00',
+          name: 'Hospitality Suite',
+          where: 'Radisson Hotel OKC Airport',
+          additional: null,
+        },
+      ]
+    );
+    days.set('2022-04-24', [
+        {
+          type: 'bowling',
+          start: '09:00:00',
+          end: '12:00:00',
+          name: 'Singles Event',
+          where: 'AMF Windsor Lanes',
+          additional: null,
+        },
+        {
+          type: 'bowling',
+          start: '13:00:00',
+          end: '16:00:00',
+          name: 'Scratch Masters',
+          where: 'AMF Windsor Lanes',
+          additional: null,
+        },
+        {
+          type: 'social',
+          start: '17:00:00',
+          end: '18:00:00',
+          name: 'Banquet and Cocktail Hour',
+          where: 'Czech Yukon Hall',
+          additional: '205 N Czech Hall Rd, Yukon, OK 73099',
+        },
+        {
+          type: 'social',
+          start: '18:00:00',
+          end: '20:00:00',
+          name: 'Awards Ceremony',
+          where: 'Czech Yukon Hall',
+          additional: '205 N Czech Hall Rd, Yukon, OK 73099',
+        },
+      ]
+    );
 
     const daysAndEvents = [...days.entries()];
 
