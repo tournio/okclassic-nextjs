@@ -15,7 +15,7 @@ const rules = () => {
         </h1>
 
         <h4 className="my-2 text-muted">
-          (Pending finalization)
+          (2022 rules pending finalization)
         </h4>
 
         <ol>
