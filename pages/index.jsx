@@ -49,7 +49,7 @@ const index = () => {
             </Card.Header>
             <Card.Body>
               <div className="d-lg-none">
-                <img className="float-right img-fluid col-6 p-0"
+                <img className={styles.LogoImage + " float-right img-fluid col-6 p-0"}
                      src={logoPath}
                      alt={logoAltText}
                 />
@@ -65,8 +65,8 @@ const index = () => {
           </Card>
         </Col>
 
-        <Col lg={4} className="d-none d-lg-block">
-          <img className="img-fluid"
+        <Col lg={4} className="d-none d-lg-block text-center">
+          <img className={styles.LogoImage + " img-fluid"}
                src={logoPath}
                alt={logoAltText}
           />
