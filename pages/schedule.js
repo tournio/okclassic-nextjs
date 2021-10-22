@@ -28,7 +28,7 @@ const schedule = () => {
         },
         {
           type: 'social',
-          start: '19:00:00',
+          start: '21:00:00',
           end: '23:59:00',
           name: 'Hospitality Suite',
           where: 'Radisson Hotel OKC Airport',
