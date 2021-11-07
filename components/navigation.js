@@ -29,9 +29,9 @@ const navigation = ({active}) => {
           <NavLink href="/rules">
             Rules
           </NavLink>
-          {/*<NavLink href="/contact">*/}
-          {/*  Contact*/}
-          {/*</NavLink>*/}
+          <NavLink href="/contact">
+            Contact
+          </NavLink>
           <NavLink href="/results">
             Results
           </NavLink>
