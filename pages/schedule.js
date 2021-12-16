@@ -84,7 +84,7 @@ const schedule = () => {
           type: 'bowling',
           start: '13:00:00',
           end: '16:00:00',
-          name: 'Scratch Masters',
+          name: 'Ray Nastasi Scratch Masters',
           where: 'AMF Windsor Lanes',
           additional: null,
         },
