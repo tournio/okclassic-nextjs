@@ -1,4 +1,4 @@
-import {Jumbotron, Row, Card, Col} from 'react-bootstrap'
+import {Row, Card, Col} from 'react-bootstrap'
 
 import Layout from '../components/layout';
 import Spotlight from '../components/spotlight';
@@ -17,13 +17,13 @@ const index = () => {
     'It all starts with a 9-pin No-Tap sweeper on Friday. Bowling starts at 7pm, so come to AMF Windsor Lanes to both register for the tournament and sign up for the sweeper!',
   ]
 
-  const jumbotronClasses = ['d-flex', 'flex-column-reverse', 'align-items-end'];
+  const jumbotronClasses = ['d-flex', 'flex-column-reverse', 'align-items-end', 'px-4'];
   jumbotronClasses.push(styles.JumbotronImage);
 
   return (
     <Layout home={true}>
 
-      <Jumbotron className={jumbotronClasses.join(' ')}>
+      <div className={jumbotronClasses.join(' ')}>
         <h1 className="display-1">
           <span className={styles.Title}>
             {tournamentName}
@@ -32,7 +32,7 @@ const index = () => {
             {year}
           </span>
         </h1>
-      </Jumbotron>
+      </div>
 
       <Row>
         <Col xs={12} md={8} lg={4}>

@@ -1,13 +1,10 @@
 import React from 'react';
 
-import Layout from '../components/layout';
-
 import styles from './district.module.scss';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 import Carousel from "react-bootstrap/Carousel";
-import ResponsiveEmbed from "react-bootstrap/ResponsiveEmbed";
+import Ratio from "react-bootstrap/Ratio";
 
 const district = () => {
   const hotelUrl = 'https://districthotelokc.com/';
@@ -78,9 +75,14 @@ const district = () => {
         </Col>
         <Col>
           <p className="text-center">
-            <Button href={hotelUrl} variant="success">
+            <a href={hotelUrl}>
               Book Your Room
-            </Button>
+            </a>
+            {' '}
+            using the group code
+            {' '}
+            <span className="fw-bold fst-italic">BOWL</span>
+            .
           </p>
         </Col>
       </Row>
@@ -105,10 +107,9 @@ const district = () => {
       </Row>
       <Row className="order-4 d-none d-sm-block">
         <Col>
-          <ResponsiveEmbed aspectRatio="4by3">
-            <iframe className="embed-responsive-item"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3247.6629502932988!2d-97.55187914829253!3d35.51261158013703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b21bba70aef765%3A0xc49d8d9aa3385b86!2sDistrict%20Hotel%20OKC!5e0!3m2!1sen!2sus!4v1634147775746!5m2!1sen!2sus"/>
-          </ResponsiveEmbed>
+          <Ratio aspectRatio="4x3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3247.6629502932988!2d-97.55187914829253!3d35.51261158013703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b21bba70aef765%3A0xc49d8d9aa3385b86!2sDistrict%20Hotel%20OKC!5e0!3m2!1sen!2sus!4v1634147775746!5m2!1sen!2sus"/>
+          </Ratio>
         </Col>
       </Row>
     </div>
