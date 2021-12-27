@@ -97,7 +97,7 @@ const rules = () => {
             average, the current average must be used.
           </li>
           <li>
-            Per USBC Rule 319a, item 3: Bowlers are responsible for verifying his/her/they/them…etc. own average,
+            Per USBC Rule 319a, item 3: Bowlers are responsible for verifying their own average,
             whether submitted by the bowler, the team captain or others. If the submitted average is lower than required
             and results in a lower classification or more handicap, the bowler’s score is disqualified. If the submitted
             average is higher than required, prize winnings will be based on the submitted average. In the case of a
