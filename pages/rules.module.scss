@@ -1,9 +1,6 @@
 .Rules {
-  h1 {
+  h1, h2 {
     margin: 1rem 0;
-  }
-  .Divisions {
-    margin-bottom: 1rem;
   }
   ol {
     list-style-type: decimal;
@@ -13,5 +10,34 @@
   }
   ol > li > ol > li > ol{
     list-style-type: lower-alpha;
+  }
+  li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .FeeBreakdown {
+    margin-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 0 0.75rem;
+
+    dt { text-align: right; }
+    dt, dd { padding-top: 0.25rem; }
+
+    .Total {
+      border-top: 1px solid #999;
+    }
+  }
+  .Divisions {
+    margin-bottom: 0.5rem;
+
+    padding-top: 0.5rem;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 0 0.75rem;
+
+    dt { text-align: left; }
+    dt, dd { padding-top: 0.25rem; }
   }
 }
