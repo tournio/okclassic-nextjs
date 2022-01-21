@@ -48,37 +48,33 @@ const rules = () => {
             Entering Averages
           </h2>
           <li>
+            Bowlers will use a combined (21 game minimum) standard composite average of:
             <ol>
               <li>
-                Bowlers will use a combined (21 game minimum) standard composite average of:
-                <ol>
-                  <li>
-                    USBC 2021-2022 Standard Composite Average
-                  </li>
-                  and
-                  <li>
-                    IGBO Tournament Average for the last 12 months (if available)
-                  </li>
-                </ol>
+                USBC 2021-2022 Standard Composite Average
+              </li>
+              and
+              <li>
+                IGBO Tournament Average for the last 12 months (if available)
+              </li>
+            </ol>
+          </li>
+          <li>
+            If a bowler has no USBC 2021-2022 average and/or IGBO Tournament Average, the bowler must use an average
+            calculated in the order listed below:
+            <ol>
+              <li>
+                A composite of all current USBC certified league averages as of April 1, 2022, provided that a
+                minimum of 21 games have been bowled across all leagues. It is the bowler’s responsibility to
+                provide standings sheets (signed by a league officer), or information to retrieve them online, for
+                ALL leagues bowled as of April 1, 2022
               </li>
               <li>
-                If a bowler has no USBC 2021-2022 average and/or IGBO Tournament Average, the bowler must use an average
-                calculated in the order listed below:
-                <ol>
-                  <li>
-                    A composite of all current USBC certified league averages as of April 1, 2022, provided that a
-                    minimum of 21 games have been bowled across all leagues. It is the bowler’s responsibility to
-                    provide standings sheets (signed by a league officer), or information to retrieve them online, for
-                    ALL leagues bowled as of April 1, 2022
-                  </li>
-                  <li>
-                    USBC 2020-2021 Standard Composite Average (minimum of 21 games).
-                  </li>
-                  <li>
-                    If none of the above averages are available, then the bowler will use a 235 average for the
-                    tournament.
-                  </li>
-                </ol>
+                USBC 2020-2021 Standard Composite Average (minimum of 21 games).
+              </li>
+              <li>
+                If none of the above averages are available, then the bowler will use a 235 average for the
+                tournament.
               </li>
             </ol>
           </li>
@@ -307,7 +303,8 @@ const rules = () => {
 
       </div>
     </Layout>
-  );
+  )
+    ;
 };
 
 export default rules;
