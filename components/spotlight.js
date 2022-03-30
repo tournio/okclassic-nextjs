@@ -22,10 +22,22 @@ const spotlight = () => {
   //   </Card.Text>
   // );
 
+  const equipmentText = (
+    <Card.Text>
+      <div className={'alert alert-warning'}>
+        OKClassic has adopted the USBC's decision to prohibit the use of certain Storm bowling balls that were found to be in violation of USBC specifications. See{' '}
+        <a href={"/rules"} className={'alert-link'}>
+          the Rules page
+        </a>
+        {' '}for full details.
+      </div>
+    </Card.Text>
+  )
+
   const text = (
     <Card.Text>
       <p>
-        Registration is now open! The deadline is April 3, so what are you waiting for?
+        The registration deadline is April 3, so what are you waiting for?
       </p>
       <p className={'text-center mb-0'}>
         <a href="https://www.igbo-reg.com/tournaments/ok-classic-2022"
@@ -54,6 +66,7 @@ const spotlight = () => {
           </Card.Title>
         </Card.Header>
         <Card.Body>
+          {equipmentText}
           {text}
         </Card.Body>
       </Card>

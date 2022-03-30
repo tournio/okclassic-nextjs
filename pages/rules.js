@@ -18,6 +18,31 @@ const rules = () => {
         {/*  (2022 rules pending finalization)*/}
         {/*</h4>*/}
 
+        <div className={'alert alert-warning'}>
+          <h4 className={'alert-heading'}>
+            Equipment Notice
+          </h4>
+          <div>
+            The OKClassic has made the decision to adopt the USBC's rule prohibiting the use of certain Storm Products bowling balls that were recently found to be below USBC minimum 73D hardness specification. The affected bowling ball models are:
+          </div>
+          <ul>
+            <li>Storm Phaze 4</li>
+            <li>Storm Electrify Solid</li>
+            <li>Storm Trend 2</li>
+            <li>900 Global Altered Reality</li>
+            <li>900 Global Wolverine</li>
+            <li>Roto Grip UFO Alert</li>
+          </ul>
+          <div>
+            For further information, including information about the related ball exchange program, see the{' '}
+            <a href={"https://www.bowl.com/News/NewsDetails.aspx?id=23622337509"}
+               className={'alert-link'}
+               target={"_new"}>
+              announcement from the USBC and Storm Products
+            </a>.
+          </div>
+        </div>
+
         <ol>
           <li>
             OKCLASSIC 2022 is a USBC-certified tournament, open to all genders by invitation only. Each participant may
