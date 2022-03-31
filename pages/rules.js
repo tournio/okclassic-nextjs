@@ -34,6 +34,23 @@ const rules = () => {
             <li>Roto Grip UFO Alert</li>
           </ul>
           <div>
+            Bowlers found using any of the prohibited equipment will face the following sanctions:
+          </div>
+          <ul>
+            <li>
+              First infraction: zero for the game in progress.
+            </li>
+            <li>
+              Second infraction: disqualification and dismissal from the tournament.
+            </li>
+          </ul>
+          <div>
+            <strong>
+              No refunds
+            </strong>
+            {' '}will be given to any bowlers affected by these sanctions, including bowlers who choose not to continue with the tournament following a first infraction.
+          </div>
+          <div className={'mt-3'}>
             For further information, including information about the related ball exchange program, see the{' '}
             <a href={"https://www.bowl.com/News/NewsDetails.aspx?id=23622337509"}
                className={'alert-link'}
