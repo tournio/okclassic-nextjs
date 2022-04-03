@@ -222,7 +222,15 @@ const rules = () => {
             $110.00 per bowler. Entries received and paid for after that will have a $10 late fee applied.
           </li>
           <li>
-            The official deadline for entries is 11:59pm April 3, 2022. Final payment is due 11:59 pm April 10, 2022.
+            The official deadline for entries is{' '}
+            <strike>
+              11:59pm April 3, 2022
+            </strike>
+            {' '}
+            <strong>
+              11:59pm April 10, 2022
+            </strong>
+            . Final payment is due 11:59pm April 10, 2022.
           </li>
           <li>
             A full team is not officially registered until all team members' payments are received by the cut off date.
