@@ -23,41 +23,45 @@ const spotlight = () => {
   // );
 
   const equipmentText = (
-    <Card.Text>
-      <div className={'alert alert-warning'}>
-        OKClassic has adopted the USBC's decision to prohibit the use of certain Storm bowling balls that were found to be in violation of USBC specifications. See{' '}
-        <a href={"/rules"} className={'alert-link'}>
-          the Rules page
-        </a>
-        {' '}for full details.
-      </div>
+    <Card.Text className={'alert alert-warning'}>
+      OKClassic has adopted the USBC's decision to prohibit the use of certain Storm bowling balls that were found to be in violation of USBC specifications. See{' '}
+      <a href={"/rules"} className={'alert-link'}>
+        the Rules page
+      </a>
+      {' '}for full details.
     </Card.Text>
   )
 
+  // const text = (
+  //   <Card.Text>
+  //     <p>
+  //       The registration deadline has been extended to{' '}
+  //       <strong>April 10</strong>
+  //       , so what are you waiting for?
+  //     </p>
+  //     <p className={'text-center mb-0'}>
+  //       <a href="https://www.igbo-reg.com/tournaments/ok-classic-2022"
+  //          className="btn btn-primary">
+  //         Register Online
+  //         {' '}<svg xmlns="http://www.w3.org/2000/svg"
+  //                   width="16"
+  //                   height="16"
+  //                   fill="currentColor"
+  //                   className="bi bi-arrow-right aria-hidden"
+  //                   viewBox="0 0 16 16">
+  //         <path fillRule="evenodd"
+  //               d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+  //       </svg>
+  //       </a>
+  //     </p>
+  //   </Card.Text>
+  // );
+
   const text = (
     <Card.Text>
-      <p>
-        The registration deadline has been extended to{' '}
-        <strong>April 10</strong>
-        , so what are you waiting for?
-      </p>
-      <p className={'text-center mb-0'}>
-        <a href="https://www.igbo-reg.com/tournaments/ok-classic-2022"
-           className="btn btn-primary">
-          Register Online
-          {' '}<svg xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    className="bi bi-arrow-right aria-hidden"
-                    viewBox="0 0 16 16">
-          <path fillRule="evenodd"
-                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-        </svg>
-        </a>
-      </p>
+      Not long to go now! We can&apos;t wait to see everyone at the tournament!
     </Card.Text>
-  );
+  )
 
   return (
     <Col xs={12} md={4}>
