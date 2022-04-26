@@ -22,15 +22,15 @@ const spotlight = () => {
   //   </Card.Text>
   // );
 
-  const equipmentText = (
-    <Card.Text className={'alert alert-warning'}>
-      OKClassic has adopted the USBC's decision to prohibit the use of certain Storm bowling balls that were found to be in violation of USBC specifications. See{' '}
-      <a href={"/rules"} className={'alert-link'}>
-        the Rules page
-      </a>
-      {' '}for full details.
-    </Card.Text>
-  )
+  // const equipmentText = (
+  //   <Card.Text className={'alert alert-warning'}>
+  //     OKClassic has adopted the USBC's decision to prohibit the use of certain Storm bowling balls that were found to be in violation of USBC specifications. See{' '}
+  //     <a href={"/rules"} className={'alert-link'}>
+  //       the Rules page
+  //     </a>
+  //     {' '}for full details.
+  //   </Card.Text>
+  // )
 
   // const text = (
   //   <Card.Text>
@@ -63,11 +63,25 @@ const spotlight = () => {
   //   </Card.Text>
   // );
 
+  // const text = (
+  //   <Card.Text>
+  //     It's tournament weekend! We wish everyone the best of luck on the lanes! Results will be posted here as they become available.
+  //   </Card.Text>
+  // );
+
   const text = (
-    <Card.Text>
-      It's tournament weekend! We wish everyone the best of luck on the lanes! Results will be posted here as they become available.
-    </Card.Text>
-  );
+    <>
+      <Card.Subtitle className={'pb-2'}>
+        That&apos;s a wrap!
+      </Card.Subtitle>
+      <Card.Text>
+        Thank you for a wonderful tournament! We want to thank our committee members, volunteers, and especially our bowlers for making this year&apos;s tournament a success! We can&apos;t wait to see everyone back next year.
+      </Card.Text>
+      <Card.Text>
+        Results will be posted here as soon as they are available.
+      </Card.Text>
+    </>
+  )
 
   return (
     <Col xs={12} md={4}>
@@ -78,7 +92,6 @@ const spotlight = () => {
           </Card.Title>
         </Card.Header>
         <Card.Body>
-          {equipmentText}
           {text}
         </Card.Body>
       </Card>
