@@ -43,15 +43,7 @@ const spotlight = () => {
   //       <a href="https://www.igbo-reg.com/tournaments/ok-classic-2022"
   //          className="btn btn-primary">
   //         Register Online
-  //         {' '}<svg xmlns="http://www.w3.org/2000/svg"
-  //                   width="16"
-  //                   height="16"
-  //                   fill="currentColor"
-  //                   className="bi bi-arrow-right aria-hidden"
-  //                   viewBox="0 0 16 16">
-  //         <path fillRule="evenodd"
-  //               d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-  //       </svg>
+  //         {' '}<i className="bi bi-arrow-right" aria-hidden={true} />
   //       </a>
   //     </p>
   //   </Card.Text>
@@ -78,7 +70,10 @@ const spotlight = () => {
         Thank you for a wonderful tournament! We want to thank our committee members, volunteers, and especially our bowlers for making this year&apos;s tournament a success! We can&apos;t wait to see everyone back next year.
       </Card.Text>
       <Card.Text>
-        Results will be posted here as soon as they are available.
+        Check out the{' '}
+        <a href={'/results'}>
+          results
+        </a>.
       </Card.Text>
     </>
   )

@@ -9,103 +9,103 @@ import styles from './schedule.module.scss';
 
 const schedule = () => {
     const days = new Map();
-    days.set('2022-04-22', [
-        {
-          type: 'register',
-          start: '17:00:00',
-          end: '21:00:00',
-          name: 'Registration',
-          where: 'AMF Windsor Lanes',
-          additional: null,
-        },
-        {
-          type: 'bowling',
-          start: '19:00:00',
-          end: '21:00:00',
-          name: 'Optional 9-pin No-Tap',
-          where: 'AMF Windsor Lanes',
-          additional: null,
-        },
-        {
-          type: 'social',
-          start: '21:00:00',
-          end: '23:59:00',
-          name: 'Hospitality Suite',
-          where: 'Radisson Hotel OKC Airport',
-          additional: null,
-        },
-      ]
-    );
-    days.set('2022-04-23', [
-        {
-          type: 'register',
-          start: '08:00:00',
-          end: '09:00:00',
-          name: 'All Tournament Registration',
-          where: 'AMF Windsor Lanes',
-          additional: null,
-        },
-        {
-          type: 'bowling',
-          start: '09:00:00',
-          end: '12:00:00',
-          name: 'Doubles Event',
-          where: 'AMF Windsor Lanes',
-          additional: null,
-        },
-        {
-          type: 'bowling',
-          start: '13:00:00',
-          end: '16:00:00',
-          name: 'Team Event',
-          where: 'AMF Windsor Lanes',
-          additional: null,
-        },
-        {
-          type: 'social',
-          start: '19:00:00',
-          end: '23:59:00',
-          name: 'Hospitality Suite',
-          where: 'Radisson Hotel OKC Airport',
-          additional: null,
-        },
-      ]
-    );
-    days.set('2022-04-24', [
-        {
-          type: 'bowling',
-          start: '09:00:00',
-          end: '12:00:00',
-          name: 'Singles Event',
-          where: 'AMF Windsor Lanes',
-          additional: null,
-        },
-        {
-          type: 'bowling',
-          start: '13:00:00',
-          end: '16:00:00',
-          name: 'Ray Nastasi Scratch Masters',
-          where: 'AMF Windsor Lanes',
-          additional: null,
-        },
-        {
-          type: 'social',
-          start: '17:00:00',
-          end: '18:00:00',
-          name: 'Banquet and Cocktail Hour',
-          where: 'Czech Yukon Hall',
-          additional: '205 N Czech Hall Rd, Yukon, OK 73099',
-        },
-        {
-          type: 'social',
-          start: '18:00:00',
-          end: '20:00:00',
-          name: 'Awards Ceremony',
-          where: 'Czech Yukon Hall',
-          additional: '205 N Czech Hall Rd, Yukon, OK 73099',
-        },
-      ]
-    );
+    // days.set('2022-04-21', [
+    //     {
+    //       type: 'register',
+    //       start: '17:00:00',
+    //       end: '21:00:00',
+    //       name: 'Registration',
+    //       where: 'AMF Windsor Lanes',
+    //       additional: null,
+    //     },
+    //     {
+    //       type: 'bowling',
+    //       start: '19:00:00',
+    //       end: '21:00:00',
+    //       name: 'Optional 9-pin No-Tap',
+    //       where: 'AMF Windsor Lanes',
+    //       additional: null,
+    //     },
+    //     {
+    //       type: 'social',
+    //       start: '21:00:00',
+    //       end: '23:59:00',
+    //       name: 'Hospitality Suite',
+    //       where: 'Radisson Hotel OKC Airport',
+    //       additional: null,
+    //     },
+    //   ]
+    // );
+    // days.set('2022-04-22', [
+    //     {
+    //       type: 'register',
+    //       start: '08:00:00',
+    //       end: '09:00:00',
+    //       name: 'All Tournament Registration',
+    //       where: 'AMF Windsor Lanes',
+    //       additional: null,
+    //     },
+    //     {
+    //       type: 'bowling',
+    //       start: '09:00:00',
+    //       end: '12:00:00',
+    //       name: 'Doubles Event',
+    //       where: 'AMF Windsor Lanes',
+    //       additional: null,
+    //     },
+    //     {
+    //       type: 'bowling',
+    //       start: '13:00:00',
+    //       end: '16:00:00',
+    //       name: 'Team Event',
+    //       where: 'AMF Windsor Lanes',
+    //       additional: null,
+    //     },
+    //     {
+    //       type: 'social',
+    //       start: '19:00:00',
+    //       end: '23:59:00',
+    //       name: 'Hospitality Suite',
+    //       where: 'Radisson Hotel OKC Airport',
+    //       additional: null,
+    //     },
+    //   ]
+    // );
+    // days.set('2022-04-23', [
+    //     {
+    //       type: 'bowling',
+    //       start: '09:00:00',
+    //       end: '12:00:00',
+    //       name: 'Singles Event',
+    //       where: 'AMF Windsor Lanes',
+    //       additional: null,
+    //     },
+    //     {
+    //       type: 'bowling',
+    //       start: '13:00:00',
+    //       end: '16:00:00',
+    //       name: 'Ray Nastasi Scratch Masters',
+    //       where: 'AMF Windsor Lanes',
+    //       additional: null,
+    //     },
+    //     {
+    //       type: 'social',
+    //       start: '17:00:00',
+    //       end: '18:00:00',
+    //       name: 'Banquet and Cocktail Hour',
+    //       where: 'Czech Yukon Hall',
+    //       additional: '205 N Czech Hall Rd, Yukon, OK 73099',
+    //     },
+    //     {
+    //       type: 'social',
+    //       start: '18:00:00',
+    //       end: '20:00:00',
+    //       name: 'Awards Ceremony',
+    //       where: 'Czech Yukon Hall',
+    //       additional: '205 N Czech Hall Rd, Yukon, OK 73099',
+    //     },
+    //   ]
+    // );
 
     const daysAndEvents = [...days.entries()];
 

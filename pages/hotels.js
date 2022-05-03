@@ -16,14 +16,18 @@ const hotels = () => {
           Host Hotels
         </h1>
 
-        <Tabs defaultActiveKey="district" className={styles.Menu + " d-flex justify-content-between justify-content-sm-center"}>
-          <Tab title="District Hotel" eventKey="district" tabClassName={styles.MenuItem}>
-            <District />
-          </Tab>
-          <Tab title="Radisson OKC Airport" eventKey="radisson" tabClassName={styles.MenuItem}>
-            <Radisson />
-          </Tab>
-        </Tabs>
+        <h6 className={'text-muted'}>
+          TBD...
+        </h6>
+
+        {/*<Tabs defaultActiveKey="district" className={styles.Menu + " d-flex justify-content-between justify-content-sm-center"}>*/}
+        {/*  <Tab title="District Hotel" eventKey="district" tabClassName={styles.MenuItem}>*/}
+        {/*    <District />*/}
+        {/*  </Tab>*/}
+        {/*  <Tab title="Radisson OKC Airport" eventKey="radisson" tabClassName={styles.MenuItem}>*/}
+        {/*    <Radisson />*/}
+        {/*  </Tab>*/}
+        {/*</Tabs>*/}
       </div>
     </Layout>
   );

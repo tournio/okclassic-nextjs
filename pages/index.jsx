@@ -6,15 +6,15 @@ import Spotlight from '../components/spotlight';
 import styles from './index.module.scss';
 
 const index = () => {
-  const tournamentDates = 'April 22-24, 2022';
-  const year = 2022;
+  const tournamentDates = 'April 21-23, 2023';
+  const year = 2023;
   const tournamentName = 'OKClassic';
   const city = 'Oklahoma City, OK';
   const logoPath = '/images/logo.jpg';
   const logoAltText = 'OKClassic logo';
   const paragraphs = [
     'Join us in Oklahoma City as we showcase the best of the midwest.',
-    'It all starts with a 9-pin No-Tap sweeper on Friday. Bowling starts at 7pm, so come to AMF Windsor Lanes to both register for the tournament and sign up for the sweeper!',
+    "We're excited to bring everyone back together at AMF Windsor Lanes!",
   ]
 
   const jumbotronClasses = ['d-flex', 'flex-column-reverse', 'align-items-end', 'px-4'];
