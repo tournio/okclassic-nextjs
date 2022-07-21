@@ -29,6 +29,10 @@ const contact = () => {
       role: 'Raffles',
       name: 'Gary Jordan, Jacque Bullock',
     },
+    {
+      role: 'Technologist',
+      name: 'Scott Stebleton'
+    }
   ];
 
   return (
@@ -60,7 +64,7 @@ const contact = () => {
             <Card className={styles.Questions}>
               <Card.Body>
                 Questions?{' '}
-                <a href="mailto:okclassic2022@yahoo.com?subject=Question about OKClassic 2022">
+                <a href="mailto:okclassic2022@yahoo.com?subject=Question about OKClassic">
                   Email the committee
                 </a>
               </Card.Body>
