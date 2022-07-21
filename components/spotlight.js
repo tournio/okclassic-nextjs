@@ -7,6 +7,22 @@ import styles from './spotlight.module.scss';
 const spotlight = () => {
   // const registrationUrl = "https://www.igbo-reg.com/tournaments/okclassic-2022";
 
+  const text = (
+    <Card.Text>
+      <p className={'mb-0'}>
+        We're working hard putting together the OKClassic 2023, with several fun and fundraiser events
+        happening in the meantime. Keep your eyes peeled!
+      </p>
+      {/*<p>*/}
+      {/*  Reservations at*/}
+      {/*  <a href="/hotels">*/}
+      {/*    {' '}our host hotels{' '}*/}
+      {/*  </a>*/}
+      {/*  are now available!*/}
+      {/*</p>*/}
+    </Card.Text>
+  );
+
   // const text = (
   //   <Card.Text>
   //     <p>
@@ -61,23 +77,23 @@ const spotlight = () => {
   //   </Card.Text>
   // );
 
-  const text = (
-    <>
-      <Card.Subtitle className={'pb-2'}>
-        That&apos;s a wrap!
-      </Card.Subtitle>
-      <Card.Text>
-        Thank you for a wonderful tournament! We want to thank our committee members, volunteers, and especially our bowlers for making this year&apos;s tournament a success! We can&apos;t wait to see everyone back next year.
-      </Card.Text>
-      <Card.Text>
-        {/*Results will be posted soon.*/}
-        Check out the{' '}
-        <a href={'/results'}>
-          results
-        </a>.
-      </Card.Text>
-    </>
-  )
+  // const text = (
+  //   <>
+  //     <Card.Subtitle className={'pb-2'}>
+  //       That&apos;s a wrap!
+  //     </Card.Subtitle>
+  //     <Card.Text>
+  //       Thank you for a wonderful tournament! We want to thank our committee members, volunteers, and especially our bowlers for making this year&apos;s tournament a success! We can&apos;t wait to see everyone back next year.
+  //     </Card.Text>
+  //     <Card.Text>
+  //       {/*Results will be posted soon.*/}
+  //       Check out the{' '}
+  //       <a href={'/results'}>
+  //         results
+  //       </a>.
+  //     </Card.Text>
+  //   </>
+  // );
 
   return (
     <Col xs={12} md={4}>

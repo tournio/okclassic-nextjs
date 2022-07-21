@@ -3,7 +3,7 @@
   margin-bottom: 0.5rem;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('/images/downtown.jpg');
+  background-image: url('/images/scissortail_park.jpg');
   background-position: 0 0;
   min-height: 10rem;
 
@@ -11,6 +11,13 @@
     font-weight: 200;
     line-height: 1.1;
     text-shadow: 1px 1px 10px black, 0 0 20px black;
+  }
+  @media (max-width: 576px) {
+    h1 {
+      font-weight: 400;
+      line-height: 1.2;
+      text-shadow: 1px 1px 10px black, 0 0 20px black;
+    }
   }
 }
 .LogoImage {
