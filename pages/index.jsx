@@ -49,7 +49,7 @@ const index = () => {
             </Card.Header>
             <Card.Body>
               <div className="d-lg-none">
-                <img className={styles.LogoImage + " float-right img-fluid col-6 p-0"}
+                <img className={styles.LogoImage + " float-end img-fluid col-6 p-0"}
                      src={logoPath}
                      alt={logoAltText}
                 />
