@@ -46,22 +46,16 @@ const links = () => {
 
   const tournaments = [
     {
-      headline:  'NY',
-      long: 'IGBO Annual 2022',
-      url: 'http://igbo2022.org/',
-      location: 'Rochester, NY',
+      headline:  'IGBO',
+      long: 'IGBO Annual 2023',
+      url: 'https://igbo2023.org/',
+      location: 'Seattle, WA',
     },
     {
-      headline:  'DC',
+      headline:  'IGBO MY',
       long: 'IGBO Mid-year 2022',
       url: 'https://igbomy2022.org/',
       location: 'Washington, DC',
-    },
-    {
-      headline:  'JOLT',
-      long: 'Tulsa JOLT',
-      url: 'http://www.jolttulsa.com/',
-      location: 'Tulsa, OK',
     },
     {
       headline:  'BIGD',
@@ -112,11 +106,17 @@ const links = () => {
       location: 'Palm Springs, CA',
     },
     {
-      headline:  'SEC',
-      long: 'Seattle Espresso Cup',
-      url: 'http://www.espressocup.org/',
-      location: 'Seattle, WA',
+      headline:  'SF',
+      long: 'San Francisco Golden Gate Classic',
+      url: 'http://www.goldengateclassic.org/',
+      location: 'San Francisco, CA',
     },
+    // {
+    //   headline:  'SEC',
+    //   long: 'Seattle Espresso Cup',
+    //   url: 'http://www.espressocup.org/',
+    //   location: 'Seattle, WA',
+    // },
   ];
   const tournamentsText = tournaments.map((t, i) => {
     return (

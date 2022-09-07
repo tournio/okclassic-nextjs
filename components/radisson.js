@@ -10,7 +10,7 @@ const district = () => {
   const hotelUrl = 'https://www.radissonhotelsamericas.com/en-us/hotels/radisson-oklahoma-city-airport';
   const hotelName = 'Radisson Hotel OKC Airport';
   const features = [
-    'Rooms start at $79/night available April 21-24',
+    'Rooms start at $79/night available April 21-25 (plus taxes)',
     'Complimentary WiFi and breakfast',
     'Outdoor swimming pool',
     'Fitness center',
@@ -18,7 +18,7 @@ const district = () => {
     'Room service',
     'Shuttle service to and from the airport (call upon arrival)',
     'Hospitality suites',
-    'Reservation deadline is April 7, 2022'
+    'Reservation deadline is April 7, 2023'
   ];
   const photoDeets = [
     {alt: 'Hotel exterior', filename: 'rad_hotel1'},
@@ -37,7 +37,7 @@ const district = () => {
           <p>
             <a href={hotelUrl} className={styles.Logo}>
               <img className="img-fluid"
-                   src="/images/hotels/radisson/radisson-logo.svg"
+                   src="/images/hotels/radisson/rad.svg"
                    alt={hotelName + ' Logo'}/>
             </a>
           </p>
