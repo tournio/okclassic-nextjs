@@ -79,7 +79,11 @@ const district = () => {
             <span className="line">4716 W I-40 Service Road</span>
             <span className="line">Oklahoma City, OK 73128</span>
             <span className="line">United States</span>
-            <span className="line">Tel:{' '}
+            <span className="line">
+              <i className={'bi-telephone-outbound-fill pe-2'} aria-hidden={true} />
+              <span className={'visually-hidden'}>
+                Telephone:
+              </span>
               <a href="tel:405-601-0062">405-601-0062</a>
                 </span>
           </address>
