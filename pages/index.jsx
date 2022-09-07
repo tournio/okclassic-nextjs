@@ -3,9 +3,15 @@ import {Row, Card, Col} from 'react-bootstrap'
 import Layout from '../components/layout';
 import Spotlight from '../components/spotlight';
 
+import {useClientReady} from "../js/utils";
 import styles from './index.module.scss';
 
 const index = () => {
+  const ready = useClientReady();
+  if (!ready) {
+    return null;
+  }
+
   const tournamentDates = 'April 21-23, 2023';
   const year = 2023;
   const tournamentName = 'OKClassic';
@@ -74,7 +80,6 @@ const index = () => {
 
         <Spotlight />
       </Row>
-
     </Layout>
   )
 }

@@ -9,17 +9,17 @@ const spotlight = () => {
 
   const text = (
     <Card.Text>
-      <p className={'mb-0'}>
+      <p className={''}>
         We're working hard putting together the OKClassic 2023, with several fun and fundraiser events
         happening in the meantime. Keep your eyes peeled!
       </p>
-      {/*<p>*/}
-      {/*  Reservations at*/}
-      {/*  <a href="/hotels">*/}
-      {/*    {' '}our host hotels{' '}*/}
-      {/*  </a>*/}
-      {/*  are now available!*/}
-      {/*</p>*/}
+      <p className={'mb-0'}>
+        Reservations at one of{' '}
+        <a href="/hotels">
+          our host hotels
+        </a>
+        {' '}are now available! (The other is coming soon.)
+      </p>
     </Card.Text>
   );
 
