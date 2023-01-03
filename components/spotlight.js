@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import styles from './spotlight.module.scss';
 
 const spotlight = () => {
-  // const registrationUrl = "https://www.igbo-reg.com/tournaments/okclassic-2022";
+  // const registrationUrl = "https://www.tourn.io/tournaments/okclassic-2023";
 
   const text = (
     <Card.Text>
@@ -14,11 +14,11 @@ const spotlight = () => {
         happening in the meantime. Keep your eyes peeled!
       </p>
       <p className={'mb-0'}>
-        Reservations at one of{' '}
+        Reservations at {' '}
         <a href="/hotels">
-          our host hotels
+          our host hotel
         </a>
-        {' '}are now available! (The other is coming soon.)
+        {' '}are now available!
       </p>
     </Card.Text>
   );
