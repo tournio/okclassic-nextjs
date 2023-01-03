@@ -19,7 +19,7 @@ const contact = () => {
     },
     {
       role: 'Secretary',
-      name: 'Donnie Chance',
+      name: 'Donnie Chance, Jacque Bullock',
     },
     {
       role: 'Fundraising',
@@ -27,7 +27,7 @@ const contact = () => {
     },
     {
       role: 'Raffles',
-      name: 'Gary Jordan, Jacque Bullock',
+      name: 'Gary Jordan, Bobby McKaughan',
     },
     {
       role: 'Technologist',
