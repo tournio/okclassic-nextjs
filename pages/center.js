@@ -7,7 +7,7 @@ import Layout from '../components/layout';
 
 import styles from './center.module.scss';
 
-const center = () => {
+const Center = () => {
   const centerUrl = 'https://www.amf.com/location/amf-windsor-lanes';
   const centerName = 'AMF Windsor Lanes';
   const features = [
@@ -52,13 +52,23 @@ const center = () => {
                 Restaurants near Windsor Lanes
               </a>
             </p>
+            <p>
+              <span className={`${styles.NoAtmGlyphs} float-start`}>
+                <i className={`bi bi-slash-circle ${styles.CircleSlash}`} aria-hidden={true}></i>
+              </span>
+              There is
+              <strong>
+                {' '}no ATM{' '}
+              </strong>
+              at the bowling center. We apologize for any inconvenience this may cause.
+            </p>
           </Col>
           <Col xs={12} sm={7}>
             <h4 className="d-none d-md-block">
               Getting There
             </h4>
 
-            <Ratio aspectRatio="4x3" className={styles.Map + " d-none d-md-block"}>
+            <Ratio aspectRatio="4x3" className={`${styles.Map} d-none d-md-block`}>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25987.84169337282!2d-97.62032346174384!3d35.492402347910435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b21005a93aec85%3A0x4f04c7fcfd12353!2sAMF%20Windsor%20Lanes!5e0!3m2!1sen!2sus!4v1580950897476!5m2!1sen!2sus"/>
             </Ratio>
 
@@ -93,4 +103,4 @@ const center = () => {
   );
 };
 
-export default center;
+export default Center;
