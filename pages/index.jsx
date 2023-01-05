@@ -42,7 +42,7 @@ const index = () => {
 
       <Row>
         <Col xs={12} md={8} lg={4}>
-          <Card>
+          <Card className={'mb-2'}>
             <Card.Header>
               <Card.Title>
                 {/*<h4>*/}
