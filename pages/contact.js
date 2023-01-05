@@ -64,7 +64,7 @@ const contact = () => {
             <Card className={styles.Questions}>
               <Card.Body>
                 Questions?{' '}
-                <a href="mailto:okclassic2022@yahoo.com?subject=Question about OKClassic">
+                <a href="mailto:okclassic2023@yahoo.com?subject=Question about OKClassic">
                   Email the committee
                 </a>
               </Card.Body>

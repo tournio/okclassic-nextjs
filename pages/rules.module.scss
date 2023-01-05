@@ -2,14 +2,8 @@
   h1, h2 {
     margin: 1rem 0;
   }
-  ol {
-    list-style-type: decimal;
-  }
-  ol > li > ol {
-    list-style-type: upper-alpha;
-  }
-  ol > li > ol > li > ol{
-    list-style-type: lower-alpha;
+  .Highlight {
+    font-weight: bold;
   }
   li {
     margin-top: 0.5rem;
@@ -18,9 +12,6 @@
   .FeeBreakdown {
     margin-bottom: 0.5rem;
     padding-top: 0.5rem;
-    display: grid;
-    grid-template-columns: max-content max-content;
-    gap: 0 0.75rem;
 
     dt { text-align: right; }
     dt, dd { padding-top: 0.25rem; }
@@ -31,13 +22,12 @@
   }
   .Divisions {
     margin-bottom: 0.5rem;
-
     padding-top: 0.5rem;
-    display: grid;
-    grid-template-columns: max-content max-content;
-    gap: 0 0.75rem;
 
-    dt { text-align: left; }
+    dt { text-align: right; }
     dt, dd { padding-top: 0.25rem; }
+  }
+  .ScratchMastersTitle {
+    font-weight: 600;
   }
 }
