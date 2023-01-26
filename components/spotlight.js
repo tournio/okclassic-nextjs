@@ -5,23 +5,23 @@ import Col from "react-bootstrap/Col";
 import styles from './spotlight.module.scss';
 
 const spotlight = () => {
-  // const registrationUrl = "https://www.tourn.io/tournaments/okclassic-2023";
+  const registrationUrl = "https://www.tourn.io/tournaments/okclassic-2023";
 
-  const text = (
-    <Card.Text>
-      <p className={''}>
-        We're working hard putting together the OKClassic 2023, with several fun and fundraiser events
-        happening in the meantime. Keep your eyes peeled!
-      </p>
-      <p className={'mb-0'}>
-        Reservations at {' '}
-        <a href="/hotels">
-          our host hotel
-        </a>
-        {' '}are now available!
-      </p>
-    </Card.Text>
-  );
+  // const text = (
+  //   <Card.Text>
+  //     <p className={''}>
+  //       We're working hard putting together the OKClassic 2023, with several fun and fundraiser events
+  //       happening in the meantime. Keep your eyes peeled!
+  //     </p>
+  //     <p className={'mb-0'}>
+  //       Reservations at {' '}
+  //       <a href="/hotels">
+  //         our host hotel
+  //       </a>
+  //       {' '}are now available!
+  //     </p>
+  //   </Card.Text>
+  // );
 
   // const text = (
   //   <Card.Text>
@@ -48,22 +48,20 @@ const spotlight = () => {
   //   </Card.Text>
   // )
 
-  // const text = (
-  //   <Card.Text>
-  //     <p>
-  //       The registration deadline has been extended to{' '}
-  //       <strong>April 10</strong>
-  //       , so what are you waiting for?
-  //     </p>
-  //     <p className={'text-center mb-0'}>
-  //       <a href="https://www.igbo-reg.com/tournaments/ok-classic-2022"
-  //          className="btn btn-primary">
-  //         Register Online
-  //         {' '}<i className="bi bi-arrow-right" aria-hidden={true} />
-  //       </a>
-  //     </p>
-  //   </Card.Text>
-  // );
+  const text = (
+    <Card.Text>
+      <p>
+        Registration is now open! Register now to guarantee your spot.
+      </p>
+      <p className={'text-center mb-0'}>
+        <a href={registrationUrl}
+           className="btn btn-primary">
+          Register Online
+          {' '}<i className="bi bi-arrow-right" aria-hidden={true} />
+        </a>
+      </p>
+    </Card.Text>
+  );
 
   // const text = (
   //   <Card.Text>
