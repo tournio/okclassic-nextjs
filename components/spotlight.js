@@ -48,26 +48,26 @@ const spotlight = () => {
   //   </Card.Text>
   // )
 
-  const text = (
-    <Card.Text>
-      <p>
-        Registration is now open! Register now to guarantee your spot.
-      </p>
-      <p className={'text-center mb-0'}>
-        <a href={registrationUrl}
-           className="btn btn-primary">
-          Register Online
-          {' '}<i className="bi bi-arrow-right" aria-hidden={true} />
-        </a>
-      </p>
-    </Card.Text>
-  );
-
   // const text = (
   //   <Card.Text>
-  //     Not long to go now! We can&apos;t wait to see everyone at the tournament!
+  //     <p>
+  //       Registration is now open! Register now to guarantee your spot.
+  //     </p>
+  //     <p className={'text-center mb-0'}>
+  //       <a href={registrationUrl}
+  //          className="btn btn-primary">
+  //         Register Online
+  //         {' '}<i className="bi bi-arrow-right" aria-hidden={true} />
+  //       </a>
+  //     </p>
   //   </Card.Text>
   // );
+
+  const text = (
+    <Card.Text>
+      Not long to go now! We can&apos;t wait to see everyone at the tournament!
+    </Card.Text>
+  );
 
   // const text = (
   //   <Card.Text>

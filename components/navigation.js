@@ -15,9 +15,9 @@ const navigation = ({active}) => {
         <NavbarToggle aria-controls="navbarText" className={styles.Toggler}/>
         <NavbarCollapse id="navbarText">
           <Nav className="mr-auto">
-            <NavLink href={'https://www.tourn.io/tournaments/okclassic-2023'}>
-              Register
-            </NavLink>
+            {/*<NavLink href={'https://www.tourn.io/tournaments/okclassic-2023'}>*/}
+            {/*  Register*/}
+            {/*</NavLink>*/}
             <NavLink href="/schedule">
               Schedule
             </NavLink>
