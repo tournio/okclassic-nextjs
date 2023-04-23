@@ -63,17 +63,17 @@ const spotlight = () => {
   //   </Card.Text>
   // );
 
-  const text = (
-    <Card.Text>
-      Not long to go now! We can&apos;t wait to see everyone at the tournament!
-    </Card.Text>
-  );
-
   // const text = (
   //   <Card.Text>
-  //     It's tournament weekend! We wish everyone the best of luck on the lanes! Results will be posted here as they become available.
+  //     Not long to go now! We can&apos;t wait to see everyone at the tournament!
   //   </Card.Text>
   // );
+
+  const text = (
+    <Card.Text>
+      It's tournament weekend! We wish everyone the best of luck on the lanes! Results will be posted here as they become available.
+    </Card.Text>
+  );
 
   // const text = (
   //   <>
