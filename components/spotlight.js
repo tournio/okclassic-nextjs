@@ -69,29 +69,29 @@ const spotlight = () => {
   //   </Card.Text>
   // );
 
-  const text = (
-    <Card.Text>
-      It's tournament weekend! We wish everyone the best of luck on the lanes! Results will be posted here as they become available.
-    </Card.Text>
-  );
-
   // const text = (
-  //   <>
-  //     <Card.Subtitle className={'pb-2'}>
-  //       That&apos;s a wrap!
-  //     </Card.Subtitle>
-  //     <Card.Text>
-  //       Thank you for a wonderful tournament! We want to thank our committee members, volunteers, and especially our bowlers for making this year&apos;s tournament a success! We can&apos;t wait to see everyone back next year.
-  //     </Card.Text>
-  //     <Card.Text>
-  //       {/*Results will be posted soon.*/}
-  //       Check out the{' '}
-  //       <a href={'/results'}>
-  //         results
-  //       </a>.
-  //     </Card.Text>
-  //   </>
+  //   <Card.Text>
+  //     It's tournament weekend! We wish everyone the best of luck on the lanes! Results will be posted here as they become available.
+  //   </Card.Text>
   // );
+
+  const text = (
+    <>
+      <Card.Subtitle className={'pb-2'}>
+        That&apos;s a wrap!
+      </Card.Subtitle>
+      <Card.Text>
+        Thank you for a wonderful tournament! We want to thank our committee members, volunteers, and especially our bowlers for making this year&apos;s tournament a success! We can&apos;t wait to see everyone back next year.
+      </Card.Text>
+      <Card.Text>
+        Results will be posted soon.
+        {/*Check out the{' '}*/}
+        {/*<a href={'/results'}>*/}
+        {/*  results*/}
+        {/*</a>.*/}
+      </Card.Text>
+    </>
+  );
 
   return (
     <Col xs={12} md={4}>
