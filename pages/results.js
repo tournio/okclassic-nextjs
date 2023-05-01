@@ -11,7 +11,7 @@ const results = () => {
     { id: 'doubles', name: 'Doubles Event' },
     { id: 'singles', name: 'Singles Event' },
     { id: 'all_events', name: 'All Events' },
-    { id: 'best_3_of_9', name: 'Best 3 of 9' },
+    // { id: 'best_3_of_9', name: 'Best 3 of 9' },
     { id: 'optional_scratch_a', name: 'Optional Scratch - Div A' },
     { id: 'optional_scratch_b', name: 'Optional Scratch - Div B' },
     { id: 'optional_scratch_c', name: 'Optional Scratch - Div C' },
