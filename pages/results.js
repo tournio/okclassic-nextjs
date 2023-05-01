@@ -46,7 +46,7 @@ const results = () => {
                         {`${result.name}`}
                       </a>
                       <Button variant='outline-secondary'
-                              href={`/results/${result.id}.pdf`}
+                              href={`/results/2023/${result.id}.pdf`}
                               title='Download PDF'>
                         <i className="bi-download" aria-hidden={true}></i>
                       </Button>
