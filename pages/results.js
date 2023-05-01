@@ -31,7 +31,7 @@ const results = () => {
         {/*</h5>*/}
 
         <h5>
-          2022 Tournament Results
+          2023 Tournament Results
         </h5>
 
         <Row>
@@ -40,14 +40,16 @@ const results = () => {
               <ListGroup variant='flush'>
                 { available.map((result, i) => {
                   return (
-                    <ListGroup.Item key={i}>
-                      <Button variant='outline-secondary' href={`/results/${result.id}.pdf`} title='Download PDF'>
-                        <i className="bi bi-file-pdf-fill" aria-hidden={true}></i>
-                      </Button>
-                      {' '}
-                      <a href={`/results/2022/${result.id}.pdf`} className={styles.TextLink}>
+                    <ListGroup.Item key={i} className={'d-flex justify-content-between'}>
+                      <a href={`/results/2023/${result.id}.pdf`}
+                         className={`${styles.TextLink} mt-2`}>
                         {`${result.name}`}
                       </a>
+                      <Button variant='outline-secondary'
+                              href={`/results/2023/${result.id}.pdf`}
+                              title='Download PDF'>
+                        <i className="bi-download" aria-hidden={true}></i>
+                      </Button>
                     </ListGroup.Item>
                   );
                 }) }
