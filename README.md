@@ -9,13 +9,13 @@ It uses Bootstrap 4, so it's built for mobile-first.
 ### Mobile
 
 <p align="center">
-  <img src="./readme_images/mobile.jpg" alt="Mobile layout" width="540"/>
+  <img src="_readme_images/mobile.jpg" alt="Mobile layout" width="540"/>
 </p>
 
 ### Desktop
 
 <p align="center">
-  <img src="./readme_images/desktop.jpg" alt="Desktop layout" />
+  <img src="_readme_images/desktop.jpg" alt="Desktop layout" />
 </p>
 
 ## Development & local running
