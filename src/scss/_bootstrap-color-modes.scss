@@ -1,0 +1,52 @@
+:root,
+[data-bs-theme="light"] {
+  //--#{$prefix}background-shade-opacity: 0.25;
+  //--#{$prefix}section-background-shade-opacity: 0.5;
+  //
+  //--#{$prefix}body-color: #{$gray-100};
+  //
+  //--#{$prefix}emphasis-color: #{$white};
+  //--#{$prefix}emphasis-color-rgb: rgb(#{$white});
+  //
+  //--#{$prefix}section-heading-color: #{$gray-100};
+  //
+  //--#{$prefix}image-shade-opacity: 0;
+  //
+  //--#{$prefix}location-logo-bg-gradient-start: 0.95;
+  //
+  //--#{$prefix}sponsor-logo-bg: #{$gray-200};
+  //
+  //.navbar {
+  //  --#{$prefix}navbar-disabled-color: #{$gray-500};
+  //}
+  //
+  //footer {
+  //  .logo-image {
+  //    filter: brightness(100%);
+  //  }
+  //}
+}
+
+[data-bs-theme="dark"] {
+  //--#{$prefix}background-shade-opacity: 0.5;
+  //--#{$prefix}section-background-shade-opacity: 0.6;
+  //
+  //--#{$prefix}body-color: #{$gray-200};
+  //
+  //--#{$prefix}emphasis-color: #{$gray-200};
+  //--#{$prefix}emphasis-color-rgb: rgb(#{$gray-200});
+  //
+  //--#{$prefix}section-heading-color: #{$gray-200};
+  //
+  //--#{$prefix}image-shade-opacity: 0.1;
+  //
+  //--#{$prefix}location-logo-bg-gradient-start: 0.70;
+  //
+  //--#{$prefix}sponsor-logo-bg: #{$gray-400};
+  //
+  //footer {
+  //  .logo-image {
+  //    filter: brightness(85%);
+  //  }
+  //}
+}
