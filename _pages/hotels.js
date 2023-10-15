@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Layout from '../components/layout';
-import District from '../components/district';
-import Radisson from '../components/radisson';
+import Layout from '../_components/layout';
+import District from '../_components/district';
+import Radisson from '../_components/radisson';
 
 import styles from './hotels.module.scss';
 import Tabs from "react-bootstrap/Tabs";

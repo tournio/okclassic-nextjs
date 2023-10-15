@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Layout from "../components/layout";
+import Layout from "../_components/layout";
 
 import styles from './rules.module.scss';
 
@@ -276,7 +276,7 @@ const rules = () => {
         </p>
         <ul>
           <li>
-            OKCLASSIC&apos;s 
+            OKCLASSIC&apos;s
             <span className={styles.ScratchMastersTitle}>{' Ray Nastasi Scratch Masters '}</span>
             is a mixed competition open to all genders. It will be offered to
             all participants using five divisions as determined by each participant&apos;s entering average.

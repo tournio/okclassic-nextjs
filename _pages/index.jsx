@@ -1,9 +1,9 @@
 import {Row, Card, Col} from 'react-bootstrap'
 
-import Layout from '../components/layout';
-import Spotlight from '../components/spotlight';
+import Layout from '../_components/layout';
+import Spotlight from '../_components/spotlight';
 
-import {useClientReady} from "../js/utils";
+import {useClientReady} from "../_js/utils";
 import styles from './index.module.scss';
 
 const index = () => {

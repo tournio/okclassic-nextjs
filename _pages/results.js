@@ -1,7 +1,7 @@
 import React from 'react';
 import {ListGroup, Button, Card, Row, Col} from "react-bootstrap";
 
-import Layout from "../components/layout";
+import Layout from "../_components/layout";
 
 import styles from './results.module.scss';
 
