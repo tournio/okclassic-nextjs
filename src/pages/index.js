@@ -12,7 +12,7 @@ const MainPage = () => {
       <Location/>
       <Schedule/>
       <Hotel/>
-      {/*<SanFrancisco full={false}/>*/}
+      {/*<OklahomaCity full={false}/>*/}
       {/*<Beneficiary/>*/}
 
       {/*<RegisterCTA/>*/}
