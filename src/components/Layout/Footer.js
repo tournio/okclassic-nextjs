@@ -1,9 +1,11 @@
 import Image from "next/image";
+import Sponsors from "../Sponsors/Sponsors";
 import logo from '../../images/logo.jpg';
 
 const Footer = () => {
   return (
     <div>
+      <Sponsors/>
       <hr />
       <div className={`row d-flex justify-content-center flex-wrap pb-0`}>
         <div className={`col-6 col-md-5 col-lg-4`}>
