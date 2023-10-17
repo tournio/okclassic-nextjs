@@ -76,15 +76,16 @@ const Navigation = () => {
                 {navLink({
                   path: '/rules',
                   text: 'Rules',
-                  disabled: false,
+                  // disabled: false,
+                  disabled: true,
                   title: '',
                 })}
 
 
-                {navLink({
-                  path: '/oklahoma-city',
-                  text: 'Oklahoma City',
-                })}
+                {/*{navLink({*/}
+                {/*  path: '/oklahoma-city',*/}
+                {/*  text: 'Oklahoma City',*/}
+                {/*})}*/}
 
                 {/*<li className={`nav-item`}>*/}
                 {/*  <Link className={`nav-link`}*/}
@@ -97,12 +98,14 @@ const Navigation = () => {
                 {navLink({
                   path: '/committee',
                   text: 'Committee',
+                  disabled: true,
                 })}
 
                 {navLink({
                   path: '/results',
                   text: 'Results',
-                  disabled: false,
+                  disabled: true,
+                  // disabled: false,
                 })}
 
               </ul>

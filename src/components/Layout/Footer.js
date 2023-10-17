@@ -18,7 +18,7 @@ const Footer = () => {
             &copy; 2023&nbsp;
           </span>
           <span>
-            OK Classic
+            OKClassic
           </span>
         </p>
       </div>

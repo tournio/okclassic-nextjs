@@ -1,10 +1,10 @@
 .ColorModeToggler {
   button {
     [data-bs-theme='light'] & {
-      color: var(--okclassic-gray-200);
+      //color: var(--okclassic-gray-200);
     }
     [data-bs-theme='dark'] & {
-      color: var(--okclassic-body-color);
+      //color: var(--okclassic-body-color);
     }
   }
   .ThemeItem {

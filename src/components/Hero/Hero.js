@@ -9,7 +9,7 @@ const Hero = () => {
       <div className={`${styles.Content}`}>
 
         <h1 className={`display-1 ${styles.Title}`}>
-          The OK Classic
+          The OKClassic
         </h1>
 
         <h2 className={`display-2 ${styles.Subtitle}`}>
