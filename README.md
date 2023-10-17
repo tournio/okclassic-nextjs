@@ -8,15 +8,23 @@ It uses Bootstrap 4, so it's built for mobile-first.
 
 ### Mobile
 
-<p align="center">
-  <img src="_readme_images/mobile.jpg" alt="Mobile layout" width="540"/>
-</p>
+(screenshot coming) 
+
+[//]: # (<p align="center">)
+
+[//]: # (  <img src="_readme_images/mobile.jpg" alt="Mobile layout" width="540"/>)
+
+[//]: # (</p>)
 
 ### Desktop
 
-<p align="center">
-  <img src="_readme_images/desktop.jpg" alt="Desktop layout" />
-</p>
+(screenshot coming)
+
+[//]: # (<p align="center">)
+
+[//]: # (  <img src="_readme_images/desktop.jpg" alt="Desktop layout" />)
+
+[//]: # (</p>)
 
 ## Development & local running
 
