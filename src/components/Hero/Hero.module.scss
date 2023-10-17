@@ -1,12 +1,12 @@
 .Hero {
-  //.BackgroundImage {
+  .BackgroundImage {
   //  background-image: url('../../images/bg/plains-storm-lite.jpeg');
   //  background-size: cover;
   //  background-position: center top;
-  //}
-  //.BackgroundShade {
+  }
+  .BackgroundShade {
   //  opacity: 40%;
-  //}
+  }
 
   padding-bottom: 1rem;
 
@@ -15,6 +15,8 @@
 
   .Content {
     text-align: center;
+
+    margin-bottom: 2rem;
 
     .Title {
       font-family: var(--okclassic-title-font-family);

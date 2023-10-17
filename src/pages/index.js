@@ -1,17 +1,14 @@
 import RootLayout from "../components/Layout/Layout";
 import Hero from "../components/Hero/Hero";
+import Location from "../components/Location/Location";
 import Hotel from "../components/Hotel/Hotel";
-// import Location from "../_components/Location/Location";
-// import Schedule from '../_components/Schedule/Schedule';
-// import SanFrancisco from "../_components/SanFrancisco/SanFrancisco";
-// import Beneficiary from "../_components/Beneficiary/Beneficiary";
 
 const MainPage = () => {
   return (
     <div>
 
       <Hero/>
-      {/*<Location/>*/}
+      <Location/>
       {/*<Schedule/>*/}
       <Hotel/>
       {/*<SanFrancisco full={false}/>*/}

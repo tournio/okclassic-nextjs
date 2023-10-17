@@ -1,0 +1,30 @@
+.Location {
+  .BackgroundImage {
+    //  background-image: url('../../images/bg/plains-storm-lite.jpeg');
+    //  background-size: cover;
+    //  background-position: center top;
+  }
+  .BackgroundShade {
+    //  opacity: 40%;
+  }
+
+  .Content {
+    margin: 0 0.5rem;
+
+    h4 {
+      margin-top: 0.5rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .NoAtmGlyphs {
+      display: block;
+      width: 2.25rem;
+      height: 2rem;
+
+      .CircleSlash {
+        font-size: 170%;
+        color: darkred;
+      }
+    }
+  }
+}

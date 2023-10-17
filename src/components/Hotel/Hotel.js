@@ -33,19 +33,21 @@ const Hotel = () => {
 
   const address = (
     <address>
-      <div>
-        <span className="d-block">
-          4716 W I-40 Service Road
-        </span>
-        <span className="d-block">
-          Oklahoma City, OK 73128
-        </span>
-      </div>
+      <span className="d-block">
+        4716 W I-40 Service Road
+      </span>
+      <span className="d-block">
+        Oklahoma City, OK 73128
+      </span>
     </address>
   );
 
   return (
     <section className={styles.Hotel}>
+      <h3 className={`section-heading`}>
+        Host Hotel
+      </h3>
+
       <div className={styles.Content}>
         {/*<div className={styles.Hotel + " d-flex flex-column flex-nowrap"}>*/}
         <Row className="justify-content-center">
@@ -105,8 +107,8 @@ const Hotel = () => {
             <p className="d-block">
               <i className={'bi-telephone-outbound-fill pe-2'} aria-hidden={true}/>
               <span className={'visually-hidden'}>
-              Telephone:
-            </span>
+                Telephone:
+              </span>
               <a href="tel:405-601-0062">405-601-0062</a>
             </p>
           </Col>

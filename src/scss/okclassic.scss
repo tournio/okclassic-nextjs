@@ -12,34 +12,28 @@ html {
       background-color: #{$desert-sand};
 
       @media (min-width: 576px) {
-        margin-left: 1rem;
-        margin-right: 1rem;
       }
       @media (min-width: 992px) {
-        margin-left: 2rem;
-        margin-right: 2rem;
+      }
+
+      padding-bottom: 0.5rem;
+      @media(min-width: 768px) {
+        padding-bottom: 1rem;
       }
 
       .section-heading {
-        margin-left: -0.5rem;
-        margin-right: -0.5rem;
         padding-top: 0.75rem;
         padding-bottom: 1rem;
-        padding-left: 1rem;
+        padding-left: 0.5rem;
 
         //color: var(--okclassic-section-heading-color);
-        //background-color: var(--okclassic-section-heading-bg-color);
+        background-color: var(--okclassic-section-heading-bg-color);
 
         @media (min-width: 576px) {
-          margin-left: -1rem;
-          margin-right: -1rem;
         }
         @media(min-width: 768px) {
-          text-align: center;
         }
         @media (min-width: 992px) {
-          margin-left: -2rem;
-          margin-right: -2rem;
         }
       }
 
