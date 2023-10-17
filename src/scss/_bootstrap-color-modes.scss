@@ -1,6 +1,6 @@
 :root,
 [data-bs-theme="light"] {
-  //--#{$prefix}background-shade-opacity: 0.25;
+  --#{$prefix}background-shade-opacity: 0.25;
   //--#{$prefix}section-background-shade-opacity: 0.5;
   //
   //--#{$prefix}body-color: #{$gray-100};
@@ -25,10 +25,12 @@
   //    filter: brightness(100%);
   //  }
   //}
+
+
 }
 
 [data-bs-theme="dark"] {
-  //--#{$prefix}background-shade-opacity: 0.5;
+  --#{$prefix}background-shade-opacity: 0.5;
   //--#{$prefix}section-background-shade-opacity: 0.6;
   //
   //--#{$prefix}body-color: #{$gray-200};

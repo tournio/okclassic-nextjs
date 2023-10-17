@@ -1,5 +1,5 @@
 import RootLayout from "../components/Layout/Layout";
-// import Hero from "../_components/Hero/Hero";
+import Hero from "../components/Hero/Hero";
 // import Location from "../_components/Location/Location";
 // import Schedule from '../_components/Schedule/Schedule';
 // import SanFrancisco from "../_components/SanFrancisco/SanFrancisco";
@@ -9,11 +9,7 @@ const MainPage = () => {
   return (
     <div>
 
-      <p className={'lead'}>
-        Content for tournament goes here.
-      </p>
-
-      {/*<Hero/>*/}
+      <Hero/>
       {/*<Location/>*/}
       {/*<Schedule/>*/}
       {/*<SanFrancisco full={false}/>*/}

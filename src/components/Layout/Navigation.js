@@ -7,7 +7,6 @@ const Navigation = () => {
 
   const linkClicked = (event) => {
     event.preventDefault();
-    console.log(event.target.href);
     router.push(event.target.href);
   }
 
