@@ -1,15 +1,19 @@
 :root,
 [data-bs-theme="light"] {
-  --#{$prefix}background-shade-opacity: 0.25;
-  //--#{$prefix}section-background-shade-opacity: 0.5;
-  //
   //--#{$prefix}body-color: #{$gray-100};
+  //--#{$prefix}body-bg: #{$desert-sand};
+
+
+  --#{$prefix}background-shade-opacity: 0.25;
+
   //
   //--#{$prefix}emphasis-color: #{$white};
   //--#{$prefix}emphasis-color-rgb: rgb(#{$white});
   //
+  --#{$prefix}section-bg: #{$desert-sand};
   //--#{$prefix}section-heading-color: #{$gray-100};
   --#{$prefix}section-heading-bg-color: #{$reseda-green};
+  //--#{$prefix}section-background-shade-opacity: 0.5;
   //
   //--#{$prefix}image-shade-opacity: 0;
   //

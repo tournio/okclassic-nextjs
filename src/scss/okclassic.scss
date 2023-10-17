@@ -9,7 +9,7 @@ html {
   body {
     section {
       position: relative;
-      background-color: #{$desert-sand};
+      background-color: var(--okclassic-section-bg);
 
       @media (min-width: 576px) {
       }
