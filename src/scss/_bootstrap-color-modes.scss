@@ -23,6 +23,20 @@
     --#{$prefix}navbar-active-color: rgba(#{$peach-yellow-rgb}, 1);
     --#{$prefix}navbar-toggler-border-color: rgba(#{$peach-yellow-rgb}, 0.7);
     --#{$prefix}navbar-toggler-focus-width: 2px;
+
+    .btn-cmt {
+      --#{$prefix}btn-color: rgba(#{$peach-yellow-rgb}, 0.9);
+      //--#{$prefix}btn-border-color: var(--#{$prefix}navbar-color);
+      --#{$prefix}btn-hover-color: rgba(#{$peach-yellow-rgb}, 1);
+      //--#{$prefix}btn-hover-bg: transparent;
+      --#{$prefix}btn-hover-border-color: var(--#{$prefix}navbar-hover-color);
+      --#{$prefix}btn-active-color: rgba(#{$peach-yellow-rgb}, 1);
+      //--#{$prefix}btn-active-border-color: rgba(#{$peach-yellow-rgb}, 1);
+    }
+
+    //.dropdown-menu {
+    //  Next up.
+    //}
   }
 
   //footer {

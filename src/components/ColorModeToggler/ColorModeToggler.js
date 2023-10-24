@@ -35,7 +35,7 @@ const ColorModeToggler = (props) => {
 
   return (
     <div className={`${classes.ColorModeToggler} ${props.className} dropdown`}>
-      <button className={'btn dropdown-toggle'}
+      <button className={'btn btn-cmt dropdown-toggle'}
               type={'button'}
               title={'Set the color mode'}
               data-bs-toggle={'dropdown'}
