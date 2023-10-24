@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import amfLogo from '../../images/amf-logo-pride.jpg';
+import amfLogo from '../../images/amf-logo-pride-600.webp';
 import styles from './Location.module.scss';
 
 const Location = () => {
@@ -78,7 +78,7 @@ const Location = () => {
               <a href={'https://maps.app.goo.gl/hiQe7rXcRvwakMRZA'} className={'d-block d-sm-none'}>
                 {address}
               </a>
-              <div href={'https://maps.app.goo.gl/hiQe7rXcRvwakMRZA'} className={'d-none d-sm-block'}>
+              <div className={'d-none d-sm-block'}>
                 {address}
               </div>
             </div>

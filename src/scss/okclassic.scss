@@ -9,7 +9,6 @@ html {
   body {
     section {
       position: relative;
-      background-color: var(--okclassic-section-bg);
 
       @media (min-width: 576px) {
       }
@@ -26,8 +25,9 @@ html {
         padding-bottom: 1rem;
         padding-left: 0.5rem;
 
-        //color: var(--okclassic-section-heading-color);
+        color: var(--okclassic-section-heading-color);
         background-color: var(--okclassic-section-heading-bg-color);
+        text-shadow: 1px 1px 0 var(--okclassic-section-heading-text-shadow-color);
 
         @media (min-width: 576px) {
         }

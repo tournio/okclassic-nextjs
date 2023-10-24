@@ -1,30 +1,30 @@
 :root,
 [data-bs-theme="light"] {
   //--#{$prefix}body-color: #{$gray-100};
-  //--#{$prefix}body-bg: #{$desert-sand};
+  --#{$prefix}body-bg: #{$field-drab};
 
+  --#{$prefix}hero-body-color: #{$gray-100};
 
-  --#{$prefix}background-shade-opacity: 0.25;
-
-  //
-  //--#{$prefix}emphasis-color: #{$white};
-  //--#{$prefix}emphasis-color-rgb: rgb(#{$white});
-  //
-  --#{$prefix}section-bg: #{$desert-sand};
-  //--#{$prefix}section-heading-color: #{$gray-100};
+  --#{$prefix}section-heading-color: #{$gray-100};
   --#{$prefix}section-heading-bg-color: #{$reseda-green};
+  --#{$prefix}section-heading-text-shadow-color: #{$gray-900};
+
   //--#{$prefix}section-background-shade-opacity: 0.5;
-  //
-  //--#{$prefix}image-shade-opacity: 0;
-  //
-  //--#{$prefix}location-logo-bg-gradient-start: 0.95;
   //
   //--#{$prefix}sponsor-logo-bg: #{$desert-sand};
   //
-  //.navbar {
-  //  --#{$prefix}navbar-disabled-color: #{$gray-500};
-  //}
-  //
+
+
+  .navbar {
+    --#{$prefix}navbar-color: rgba(#{$peach-yellow-rgb}, 0.9);
+    --#{$prefix}navbar-disabled-color: rgba(#{$peach-yellow-rgb}, 0.45);
+
+    --#{$prefix}navbar-hover-color: rgba(#{$peach-yellow-rgb}, 1);
+    --#{$prefix}navbar-active-color: rgba(#{$peach-yellow-rgb}, 1);
+    --#{$prefix}navbar-toggler-border-color: rgba(#{$peach-yellow-rgb}, 0.7);
+    --#{$prefix}navbar-toggler-focus-width: 2px;
+  }
+
   //footer {
   //  .logo-image {
   //    filter: brightness(100%);

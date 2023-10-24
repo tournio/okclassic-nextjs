@@ -1,17 +1,33 @@
 .Hero {
   .BackgroundImage {
-  //  background-image: url('../../images/bg/plains-storm-lite.jpeg');
-  //  background-size: cover;
-  //  background-position: center top;
+    background-image: url('../../images/bg/night-lightning.jpeg');
+    background-size: cover;
+    background-position: center top;
+
+    //@media (min-width: 576px) {
+    //}
+    @media (min-width: 768px) {
+      background-image: url('../../images/bg/night-lightning-768.jpeg');
+    }
+    @media (min-width: 992px) {
+      background-image: url('../../images/bg/night-lightning-992.jpeg');
+      background-position: center bottom;
+    }
+    @media (min-width: 1200px) {
+      background-image: url('../../images/bg/night-lightning-1200.jpeg');
+    }
+    @media (min-width: 1400px) {
+      background-image: url('../../images/bg/night-lightning-1400.jpeg');
+    }
   }
   .BackgroundShade {
-  //  opacity: 40%;
+      opacity: 0;
   }
 
   padding-bottom: 1rem;
 
-  //color: var(--okclassic-hero-color);
-  //text-shadow: 1px 1px 0 var(--okclassic-body-color);
+  color: var(--okclassic-hero-body-color);
+  text-shadow: 1px 1px 0 var(--okclassic-gray-900);
 
   .Content {
     text-align: center;
