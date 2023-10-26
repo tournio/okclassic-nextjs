@@ -1,9 +1,10 @@
 :root,
 [data-bs-theme="light"] {
   //--#{$prefix}body-color: #{$gray-100};
-  --#{$prefix}body-bg: #{$field-drab};
+  //--#{$prefix}body-bg: #{$field-drab};
+  --#{$prefix}body-bg: #{$beaver};
 
-  --#{$prefix}hero-body-color: #{$gray-100};
+  --#{$prefix}hero-body-color: #{$gray-900};
 
   --#{$prefix}section-heading-color: #{$gray-100};
   --#{$prefix}section-heading-bg-color: #{$reseda-green};
@@ -16,28 +17,32 @@
 
 
   .navbar {
-    --#{$prefix}navbar-color: rgba(#{$peach-yellow-rgb}, 0.9);
-    --#{$prefix}navbar-disabled-color: rgba(#{$peach-yellow-rgb}, 0.45);
+    //--#{$prefix}navbar-color: rgba(#{$peach-yellow-rgb}, 0.9);
+    //--#{$prefix}navbar-disabled-color: rgba(#{$peach-yellow-rgb}, 0.45);
+    //
+    //--#{$prefix}navbar-hover-color: rgba(#{$peach-yellow-rgb}, 1);
+    //--#{$prefix}navbar-active-color: rgba(#{$peach-yellow-rgb}, 1);
+    //--#{$prefix}navbar-toggler-border-color: rgba(#{$peach-yellow-rgb}, 0.7);
 
-    --#{$prefix}navbar-hover-color: rgba(#{$peach-yellow-rgb}, 1);
-    --#{$prefix}navbar-active-color: rgba(#{$peach-yellow-rgb}, 1);
-    --#{$prefix}navbar-toggler-border-color: rgba(#{$peach-yellow-rgb}, 0.7);
+    --#{$prefix}navbar-color: #{$gray-900};
+    --#{$prefix}navbar-disabled-color: #{$gray-700};
+
+    --#{$prefix}navbar-hover-color: #{$gray-900};
+    --#{$prefix}navbar-active-color: #{$gray-900};
+    --#{$prefix}navbar-toggler-border-color: #{$gray-800};
+
     --#{$prefix}navbar-toggler-focus-width: 2px;
 
     .btn-cmt {
-      --#{$prefix}btn-color: rgba(#{$peach-yellow-rgb}, 0.9);
-      --#{$prefix}btn-hover-color: rgba(#{$peach-yellow-rgb}, 1);
-      --#{$prefix}btn-hover-border-color: var(--#{$prefix}navbar-hover-color);
-      --#{$prefix}btn-active-color: rgba(#{$peach-yellow-rgb}, 1);
+      // No color overrides necessary
     }
 
     .dropdown-menu {
-      --#{$prefix}dropdown-link-color: rgba(#{$peach-yellow-rgb}, 0.9);
-      --#{$prefix}dropdown-link-hover-color: #{$field-drab};
-      --#{$prefix}dropdown-link-hover-bg: rgba(#{$peach-yellow-rgb}, 0.7);
-      --#{$prefix}dropdown-link-active-color: rgba(#{$peach-yellow-rgb}, 0.9);
-      --#{$prefix}dropdown-link-active-bg: rgba(#{$peach-yellow-rgb}, 0.9);
-      --#{$prefix}dropdown-link-disabled-color: rgba(#{$peach-yellow-rgb}, 0.45);
+      --#{$prefix}dropdown-link-color: #{$gray-900};
+      --#{$prefix}dropdown-link-hover-color: rgba(#{$beaver-rgb}, 0.8);
+      --#{$prefix}dropdown-link-hover-bg: #{$gray-900};
+      --#{$prefix}dropdown-link-active-color: rgba(#{$beaver-rgb}, 1);
+      --#{$prefix}dropdown-link-active-bg: #{$gray-900};
     }
   }
 

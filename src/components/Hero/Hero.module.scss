@@ -1,33 +1,34 @@
 .Hero {
   .BackgroundImage {
-    background-image: url('../../images/bg/night-lightning.jpeg');
+    background-image: url('../../images/bg/sunrise-600.jpeg');
     background-size: cover;
     background-position: center top;
 
     //@media (min-width: 576px) {
     //}
     @media (min-width: 768px) {
-      background-image: url('../../images/bg/night-lightning-768.jpeg');
+      background-image: url('../../images/bg/sunrise-800.jpeg');
     }
     @media (min-width: 992px) {
-      background-image: url('../../images/bg/night-lightning-992.jpeg');
+      background-image: url('../../images/bg/sunrise-992.jpeg');
       background-position: center bottom;
     }
     @media (min-width: 1200px) {
-      background-image: url('../../images/bg/night-lightning-1200.jpeg');
+      background-image: url('../../images/bg/sunrise-1200.jpeg');
     }
     @media (min-width: 1400px) {
-      background-image: url('../../images/bg/night-lightning-1400.jpeg');
+      background-image: url('../../images/bg/sunrise-1600.jpeg');
     }
   }
   .BackgroundShade {
-      opacity: 0;
+    background-color: white;
+      opacity: 0.5;
   }
 
   padding-bottom: 1rem;
 
   color: var(--okclassic-hero-body-color);
-  text-shadow: 1px 1px 0 var(--okclassic-gray-900);
+  //text-shadow: 1px 1px 0 var(--okclassic-gray-900);
 
   .Content {
     text-align: center;
