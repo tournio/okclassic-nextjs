@@ -1,12 +1,23 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 
 import styles from './Hotel.module.scss';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Carousel from "react-bootstrap/Carousel";
 import Ratio from "react-bootstrap/Ratio";
+import {useThemeContext} from "../../utils/ThemeContext";
 
 const Hotel = () => {
+  const {theme} = useThemeContext();
+
+  const [colorScheme, setColorScheme] = useState('dark');
+  useEffect(() => {
+    if (!theme) {
+      return;
+    }
+    setColorScheme(theme.active);
+  }, [theme]);
+
   const hotelUrl = 'https://www.choicehotels.com/reservations/groups/G9658998';
   const hotelName = 'Radisson Hotel OKC Airport';
   const features = [
@@ -42,6 +53,8 @@ const Hotel = () => {
     </address>
   );
 
+  const hotelLogoPath = `/images/hotels/radisson/rad${colorScheme === 'dark' ? '-dark' : ''}.svg`;
+
   return (
     <section className={styles.Hotel}>
       <h3 className={`section-heading`}>
@@ -49,13 +62,12 @@ const Hotel = () => {
       </h3>
 
       <div className={styles.Content}>
-        {/*<div className={styles.Hotel + " d-flex flex-column flex-nowrap"}>*/}
         <Row className="justify-content-center">
           <Col xs={6}>
             <p>
               <a href={hotelUrl} className={styles.Logo}>
                 <img className="img-fluid"
-                     src="/images/hotels/radisson/rad.svg"
+                     src={hotelLogoPath}
                      alt={hotelName + ' Logo'}/>
               </a>
             </p>
@@ -100,7 +112,7 @@ const Hotel = () => {
               <a href={'https://goo.gl/maps/nzfMpVDhDnfmmB8r9'} className={'d-block d-sm-none'}>
                 {address}
               </a>
-              <div href={'https://goo.gl/maps/nzfMpVDhDnfmmB8r9'} className={'d-none d-sm-block'}>
+              <div className={'d-none d-sm-block'}>
                 {address}
               </div>
             </div>

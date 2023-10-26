@@ -11,13 +11,6 @@
   --#{$prefix}section-heading-text-shadow-color: #{$gray-900};
 
   .navbar {
-    //--#{$prefix}navbar-color: rgba(#{$peach-yellow-rgb}, 0.9);
-    //--#{$prefix}navbar-disabled-color: rgba(#{$peach-yellow-rgb}, 0.45);
-    //
-    //--#{$prefix}navbar-hover-color: rgba(#{$peach-yellow-rgb}, 1);
-    //--#{$prefix}navbar-active-color: rgba(#{$peach-yellow-rgb}, 1);
-    //--#{$prefix}navbar-toggler-border-color: rgba(#{$peach-yellow-rgb}, 0.7);
-
     --#{$prefix}navbar-color: #{$gray-900};
     --#{$prefix}navbar-disabled-color: #{$gray-700};
 
@@ -39,7 +32,6 @@
       --#{$prefix}dropdown-link-active-bg: #{$gray-900};
     }
   }
-
   footer {
     .logo-image {
       //filter: brightness(100%);
@@ -52,5 +44,48 @@
 }
 
 [data-bs-theme="dark"] {
-  --#{$prefix}location-logo-bg-gradient-start: 0.70;
+  --#{$prefix}body-bg: #{$field-drab};
+
+  --#{$prefix}link-opacity: 1;
+
+  --#{$prefix}hero-body-color: #{$gray-300};
+
+  --#{$prefix}section-heading-color: #{$gray-300};
+  --#{$prefix}section-heading-bg-color: #{shade-color($reseda-green, 25%)};
+  --#{$prefix}section-heading-text-shadow-color: #{$gray-900};
+
+  .navbar {
+    --#{$prefix}navbar-color: #{$gray-300};
+    --#{$prefix}navbar-disabled-color: #{$gray-500};
+
+    --#{$prefix}navbar-hover-color: #{$gray-100};
+    --#{$prefix}navbar-active-color: #{$gray-200};
+    --#{$prefix}navbar-toggler-border-color: #{$gray-300};
+
+    --#{$prefix}navbar-toggler-focus-width: 2px;
+
+    .btn-cmt {
+      // No color overrides necessary
+    }
+
+    .dropdown-menu {
+      --#{$prefix}dropdown-link-color: #{$gray-300};
+      --#{$prefix}dropdown-link-hover-color: #{$gray-500};
+      --#{$prefix}dropdown-link-hover-bg: #{$field-drab};
+      --#{$prefix}dropdown-link-active-color: #{$gray-200};
+      --#{$prefix}dropdown-link-active-bg: #{$field-drab};
+    }
+  }
+
+  --#{$prefix}sponsor-logo-bg: #{$desert-sand};
+
+  footer {
+    .logo-image {
+      //filter: brightness(100%);
+    }
+  }
+
+  --#{$prefix}location-logo-bg-gradient-start: 0.7;
+  --#{$prefix}background-shade-color: black;
+  --#{$prefix}background-shade-opacity: 0.3;
 }

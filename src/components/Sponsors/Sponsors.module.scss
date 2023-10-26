@@ -16,6 +16,7 @@
 
       .AdjustedBrightness {
         [data-bs-theme='dark'] & {
+          filter: brightness(85%);
         }
       }
     }

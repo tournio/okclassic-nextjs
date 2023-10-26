@@ -38,10 +38,8 @@
 
     .Logo {
       [data-bs-theme='dark'] & {
-        //filter: brightness(85%);
+        filter: brightness(85%);
       }
-
-      //margin: 1rem 0 1rem;
     }
 
     .NoAtmGlyphs {
@@ -52,6 +50,10 @@
       .CircleSlash {
         font-size: 170%;
         color: darkred;
+
+        [data-bs-theme='dark'] & {
+          color: #CD5C5C;
+        }
       }
     }
   }
