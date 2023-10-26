@@ -88,20 +88,4 @@
       }
     }
   }
-
-  .BackgroundImage {
-    //background-image: url('../../images/bg/transamerica-600w.jpg');
-
-    @media (min-width: 768px) {
-      //background-image: url('../../images/bg/transamerica-991w.jpg');
-    }
-
-    @media (min-width: 992px) {
-      //background-image: url('../../images/bg/transamerica-fullsize.jpg');
-    }
-  }
-
-  .BackgroundShade {
-    //opacity: var(--sfggc-section-background-shade-opacity);
-  }
 }
