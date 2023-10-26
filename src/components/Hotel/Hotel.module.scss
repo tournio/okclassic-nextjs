@@ -1,30 +1,30 @@
 .Hotel {
-  .BackgroundImage {
-    background-image: url('../../images/bg/rain.jpeg');
-    background-size: cover;
-    background-position: center top;
-
-    @media (min-width: 768px) {
-      background-image: url('../../images/bg/rain-768.jpeg');
-    }
-    @media (min-width: 992px) {
-      background-image: url('../../images/bg/rain-992.jpeg');
-    }
-    @media (min-width: 1200px) {
-      background-image: url('../../images/bg/rain-1200.jpeg');
-    }
-    @media (min-width: 1400px) {
-      background-image: url('../../images/bg/rain-1400.jpeg');
-    }
-  }
-  .BackgroundShade {
-    background-color: white;
-    opacity: 0.6;
-
-    [data-bs-theme="dark"] & {
-      background-color: black;
-    }
-  }
+  //.BackgroundImage {
+  //  background-image: url('../../images/bg/rain.jpeg');
+  //  background-size: cover;
+  //  background-position: center top;
+  //
+  //  @media (min-width: 768px) {
+  //    background-image: url('../../images/bg/rain-768.jpeg');
+  //  }
+  //  @media (min-width: 992px) {
+  //    background-image: url('../../images/bg/rain-992.jpeg');
+  //  }
+  //  @media (min-width: 1200px) {
+  //    background-image: url('../../images/bg/rain-1200.jpeg');
+  //  }
+  //  @media (min-width: 1400px) {
+  //    background-image: url('../../images/bg/rain-1400.jpeg');
+  //  }
+  //}
+  //.BackgroundShade {
+  //  background-color: white;
+  //  opacity: 0.6;
+  //
+  //  [data-bs-theme="dark"] & {
+  //    background-color: black;
+  //  }
+  //}
 
   .Content {
     margin: 0 0.5rem;

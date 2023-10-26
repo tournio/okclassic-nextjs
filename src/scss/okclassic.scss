@@ -16,6 +16,7 @@ html {
       z-index: -100;
       background-repeat: no-repeat;
       background-position: center top;
+      background-size: cover;
 
       background-image: url('../images/bg/ball-return.jpeg');
 
@@ -43,7 +44,6 @@ html {
       background-color: var(--okclassic-background-shade-color);
       opacity: var(--okclassic-background-shade-opacity);
     }
-
 
     section {
       position: relative;
