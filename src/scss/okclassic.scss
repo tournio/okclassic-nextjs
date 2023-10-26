@@ -14,8 +14,16 @@ html {
         margin-right: 0.5rem;
       }
 
+      a, a:hover {
+        text-decoration: underline solid rgba(var(--okclassic-link-color-rgb), 50%) 1px;
+      }
 
       @media (min-width: 576px) {
+      }
+      @media (min-width: 768px) {
+        a {
+          text-decoration: none;
+        }
       }
       @media (min-width: 992px) {
       }
@@ -32,7 +40,6 @@ html {
 
         color: var(--okclassic-section-heading-color);
         background-color: var(--okclassic-section-heading-bg-color);
-        text-shadow: 1px 1px 0 var(--okclassic-section-heading-text-shadow-color);
 
         @media (min-width: 576px) {
         }

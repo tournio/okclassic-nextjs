@@ -21,7 +21,7 @@
   }
   .BackgroundShade {
     background-color: white;
-    opacity: 75%;
+    opacity: 0.6;
 
     [data-bs-theme="dark"] & {
       background-color: black;
@@ -34,6 +34,14 @@
     h4 {
       margin-top: 0.5rem;
       margin-bottom: 0.6rem;
+    }
+
+    .Logo {
+      [data-bs-theme='dark'] & {
+        //filter: brightness(85%);
+      }
+
+      //margin: 1rem 0 1rem;
     }
 
     .NoAtmGlyphs {

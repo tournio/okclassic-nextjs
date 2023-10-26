@@ -1,23 +1,17 @@
+// Our prefix, obviously
 $prefix: okclassic-;
 
-//$font-family-sans-serif:
-//  "Noto Sans",
-//  system-ui,
-//  -apple-system,
-//  "Segoe UI",
-//  Roboto,
-//  "Helvetica Neue",
-//  "Liberation Sans",
-//  Arial,
-//  sans-serif,
-//  "Apple Color Emoji",
-//  "Segoe UI Emoji",
-//  "Segoe UI Symbol",
-//  "Noto Color Emoji";
-
+// Our values that override Bootstrap's variables
 $font-size-root: 18px; // Make text a bit bigger than default
+$link-color: shade-color(#0d6efd, 30%);
 
+//
+// Our custom colors
+//
+
+// intended for light color mode
 $reseda-green: #797d62ff;
+$reseda-green-rgb: to-rgb($reseda-green);
 $moss-green: #9b9b7aff;
 $desert-sand: #d9ae94ff;
 $peach-yellow: #f1dca7ff;
@@ -27,6 +21,7 @@ $persian-orange: #d08c60ff;
 $beaver: #997b66ff;
 $beaver-rgb: to-rgb($beaver);
 
+// intended for dark color mode (duplicated colors commented out)
 //$moss-green: #989c81ff;
 //$reseda-green: #868665ff;
 $kobicha: #6a3f25ff;

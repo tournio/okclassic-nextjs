@@ -34,8 +34,8 @@ const Location = () => {
 
       <div className={styles.Content}>
 
-        <div className={'row'}>
-          <div className={'col-12 col-md-4 d-flex justify-content-center'}>
+        <div className={'row d-flex justify-content-center'}>
+          <div className={'col-8 col-md-4'}>
             <Link href={'https://www.amf.com/location/amf-windsor-lanes'}
                   target={'_blank'}>
               <Image src={amfLogo}
