@@ -77,7 +77,7 @@ const Navigation = () => {
                   path: '/rules',
                   text: 'Rules',
                   // disabled: false,
-                  disabled: true,
+                  // disabled: true,
                   title: '',
                 })}
 
