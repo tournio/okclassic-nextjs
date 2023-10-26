@@ -8,13 +8,11 @@ const Document = () => (
         rel={'stylesheet'}/>
     </Head>
     <body>
-      <div className={`nav-and-top`} id={'tippy-top'}>
-        <div className={`top-image-background`}></div>
-        <div className={`top-background-shade`}></div>
+      <div className={`top-image-background`}></div>
+      <div className={`top-background-shade`}></div>
 
-        <Main/>
-        <NextScript/>
-      </div>
+      <Main/>
+      <NextScript/>
     </body>
   </Html>
 )

@@ -121,8 +121,8 @@ const Location = () => {
         </div>
       </div>
 
-      <div className={`section-image-background ${styles.BackgroundImage}`}></div>
-      <div className={`section-background-shade ${styles.BackgroundShade}`}></div>
+      {/*<div className={`section-image-background ${styles.BackgroundImage}`}></div>*/}
+      {/*<div className={`section-background-shade ${styles.BackgroundShade}`}></div>*/}
     </section>
   )
 }

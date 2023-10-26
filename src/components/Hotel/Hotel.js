@@ -141,6 +141,9 @@ const Hotel = () => {
           </Ratio>
         </Col>
       </Row>
+
+      {/*<div className={`section-image-background ${styles.BackgroundImage}`}></div>*/}
+      {/*<div className={`section-background-shade ${styles.BackgroundShade}`}></div>*/}
     </section>
   );
 };

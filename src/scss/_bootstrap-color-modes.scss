@@ -7,7 +7,7 @@
   --#{$prefix}hero-body-color: #{$gray-900};
 
   --#{$prefix}section-heading-color: #{$gray-900};
-  --#{$prefix}section-heading-bg-color: rgba(#{$reseda-green-rgb}, 0.5);
+  --#{$prefix}section-heading-bg-color: #{tint-color($reseda-green, 25%)};
   --#{$prefix}section-heading-text-shadow-color: #{$gray-900};
 
   .navbar {
@@ -47,6 +47,8 @@
   }
 
   --#{$prefix}location-logo-bg-gradient-start: 0.95;
+  --#{$prefix}background-shade-color: white;
+  --#{$prefix}background-shade-opacity: 0.65;
 }
 
 [data-bs-theme="dark"] {
