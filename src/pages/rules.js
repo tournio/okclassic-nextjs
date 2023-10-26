@@ -1,4 +1,4 @@
-import RootLayout from "../components/layout/layout";
+import RootLayout from "../components/Layout/Layout";
 import Rules from "../components/Rules/Rules";
 
 const RulesPage = () => {
