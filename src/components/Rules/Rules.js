@@ -25,7 +25,7 @@ The Tournament Director reserves the right to dismiss and/or disqualify any bowl
     1. USBC 2023-2024 Standard Composite Average;
     1. IGBO Tournament Average for the last 12 months, if available.
 1. If a bowler has no USBC 2023-2024 average and/or IGBO Tournament Average, the bowler must use an average calculated in the order listed below:
-    1. A composite of all current USBC certified league averages as of April 1, 2024, provided that a minimum of 21 games have been bowled across all leagues. It is the bowler&apos;s responsibility to provide standings sheets (signed by a league officer), or information to retrieve them online, for ALL leagues bowled as of April 1, 2023.
+    1. A composite of all current USBC certified league averages as of April 1, 2024, provided that a minimum of 21 games have been bowled across all leagues. It is the bowler&apos;s responsibility to provide standings sheets (signed by a league officer), or information to retrieve them online, for ALL leagues bowled as of April 1, 2024.
     1. USBC 2022-2023 Standard Composite Average (minimum of 21 games).
     1. If none of the above averages are available, then the bowler will use a 235 average for the tournament
 1. PBA/PWBA/Team USA members will use a minimum average of 210.
