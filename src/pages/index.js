@@ -3,6 +3,7 @@ import Hero from "../components/Hero/Hero";
 import Location from "../components/Location/Location";
 import Hotel from "../components/Hotel/Hotel";
 import Schedule from "../components/Schedule/Schedule";
+import Links from "../components/Links/Links";
 
 const MainPage = () => {
   return (
@@ -13,6 +14,7 @@ const MainPage = () => {
       <Schedule/>
       <Hotel/>
       {/*<RegisterCTA/>*/}
+      <Links/>
     </div>
   )
 }
