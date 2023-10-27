@@ -98,14 +98,11 @@ const Navigation = () => {
                 {navLink({
                   path: '/committee',
                   text: 'Committee',
-                  disabled: true,
                 })}
 
                 {navLink({
                   path: '/results',
                   text: 'Results',
-                  disabled: true,
-                  // disabled: false,
                 })}
 
               </ul>
