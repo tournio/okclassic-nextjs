@@ -2,29 +2,23 @@
 
 This is the informational website for the OKClassic, an IGBO-affiliated bowling tournament. The site is available at [www.okclassic.com](http://www.okclassic.com).
 
-It's built as a static website using the [Next.js](https://nextjs.org/) framework and [React-Bootstrap](https://react-bootstrap.github.io/).
-
-It uses Bootstrap 4, so it's built for mobile-first.
+It's built as a mobile-first, static website using the [Next.js](https://nextjs.org/) framework and [React-Bootstrap](https://react-bootstrap.github.io/).
 
 ### Mobile
 
-(screenshot coming) 
+<p>
 
-[//]: # (<p align="center">)
+  <img src="_readme_images/mobile.jpg" alt="Mobile layout" width="540"/>
 
-[//]: # (  <img src="_readme_images/mobile.jpg" alt="Mobile layout" width="540"/>)
-
-[//]: # (</p>)
+</p>
 
 ### Desktop
 
-(screenshot coming)
+<p>
 
-[//]: # (<p align="center">)
+  <img src="_readme_images/desktop.jpg" alt="Desktop layout" />
 
-[//]: # (  <img src="_readme_images/desktop.jpg" alt="Desktop layout" />)
-
-[//]: # (</p>)
+</p>
 
 ## Development & local running
 
