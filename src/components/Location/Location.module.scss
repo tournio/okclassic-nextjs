@@ -1,0 +1,60 @@
+.Location {
+  //.BackgroundImage {
+  //  background-image: url('../../images/bg/ball-return.jpeg');
+  //  background-size: cover;
+  //  background-position: center top;
+  //
+  //  //@media (min-width: 576px) {
+  //  //}
+  //  @media (min-width: 768px) {
+  //    background-image: url('../../images/bg/ball-return-768.jpeg');
+  //  }
+  //  @media (min-width: 992px) {
+  //    background-image: url('../../images/bg/ball-return-992.jpeg');
+  //  }
+  //  @media (min-width: 1200px) {
+  //    background-image: url('../../images/bg/ball-return-1200.jpeg');
+  //  }
+  //  @media (min-width: 1400px) {
+  //    background-image: url('../../images/bg/ball-return-1400.jpeg');
+  //  }
+  //}
+  //.BackgroundShade {
+  //  background-color: white;
+  //  opacity: 0.6;
+  //
+  //  [data-bs-theme="dark"] & {
+  //    background-color: black;
+  //  }
+  //}
+
+  .Content {
+    margin: 0 0.5rem;
+
+    h4 {
+      margin-top: 0.5rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .Logo {
+      [data-bs-theme='dark'] & {
+        filter: brightness(85%);
+      }
+    }
+
+    .NoAtmGlyphs {
+      display: block;
+      width: 2.25rem;
+      height: 2rem;
+
+      .CircleSlash {
+        font-size: 170%;
+        color: darkred;
+
+        [data-bs-theme='dark'] & {
+          color: #CD5C5C;
+        }
+      }
+    }
+  }
+}
