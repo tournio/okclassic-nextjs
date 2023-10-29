@@ -7,13 +7,13 @@ import styles from './Committee.module.scss';
 const Committee = () => {
   const roles = [
     {
-      role: 'Director',
-      name: 'David Barz',
+      role: 'Co-Directors',
+      name: 'David Barz, Jack Calcote',
       email: 'director@okclassic.com',
     },
     {
-      role: 'Treasurer',
-      name: 'George Noe',
+      role: 'Co-Treasurers',
+      name: 'George Noe, Bobby McKaughan',
       email: 'treasurer@okclassic.com',
     },
     {
@@ -27,7 +27,7 @@ const Committee = () => {
     },
     {
       role: 'Raffles',
-      name: 'Gary Jordan, Bobby McKaughan',
+      name: 'Gary Jordan, Taylor Adams, Heather Himes',
     },
     {
       role: 'Technologist',
