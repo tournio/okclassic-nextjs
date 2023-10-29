@@ -4,12 +4,14 @@ import Location from "../components/Location/Location";
 import Hotel from "../components/Hotel/Hotel";
 import Schedule from "../components/Schedule/Schedule";
 import Links from "../components/Links/Links";
+import MainText from "../components/MainText/MainText";
 
 const MainPage = () => {
   return (
     <div>
 
       <Hero/>
+      <MainText/>
       <Location/>
       <Schedule/>
       <Hotel/>

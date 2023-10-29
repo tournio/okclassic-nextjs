@@ -1,76 +1,56 @@
 .Hero {
-  //.BackgroundImage {
-  //  background-image: url('../../images/bg/sunrise-600.jpeg');
-  //  background-size: cover;
-  //  background-position: center top;
-  //
-  //  //@media (min-width: 576px) {
-  //  //}
-  //  @media (min-width: 768px) {
-  //    background-image: url('../../images/bg/sunrise-800.jpeg');
-  //  }
-  //  @media (min-width: 992px) {
-  //    background-image: url('../../images/bg/sunrise-992.jpeg');
-  //    background-position: center bottom;
-  //  }
-  //  @media (min-width: 1200px) {
-  //    background-image: url('../../images/bg/sunrise-1200.jpeg');
-  //  }
-  //  @media (min-width: 1400px) {
-  //    background-image: url('../../images/bg/sunrise-1600.jpeg');
-  //  }
-  //}
-  //.BackgroundShade {
-  //  background-color: white;
-  //    opacity: 0.5;
-  //}
+  min-height: 200px;
+  @media (min-width: 768px) {
+    min-height: 400px;
+  }
+  @media (min-width: 992px) {
+    min-height: 500px;
+  }
+  @media (min-width: 1200px) {
+    min-height: 600px;
+  }
 
-  padding-bottom: 1rem;
-
-  color: var(--okclassic-hero-body-color);
-  //text-shadow: 1px 1px 0 var(--okclassic-gray-900);
-
-  .Content {
-    text-align: center;
-
-    margin-bottom: 3rem;
-
-    .Title {
-      font-family: var(--okclassic-title-font-family);
-      font-size: calc(2.25rem + 5vw);
-      padding: 2rem 0;
-      text-shadow: 2px 2px 1px var(--okclassic-body-text-shadow-color);
-
-      @media (min-width: 768px) {
-        font-size: calc(2.5rem + 5vw);
-        padding-top: 5rem;
-        margin-bottom: 4rem;
-      }
-      @media (min-width: 992px) {
-        //margin-top: 6rem;
-        //margin-bottom: 5rem;
-      }
+  .Title {
+    margin-bottom: 0;
+    color: var(--okclassic-hero-body-color);
+    .Year {
+      color: var(--okclassic-hero-title-year-color);
     }
+    text-align: right;
+    font-family: var(--okclassic-title-font-family);
+    font-size: calc(2rem + 2.5vw);
 
-    .Subtitle {
-      font-size: calc(1.5rem + 2.8vw);
-      margin-bottom: 2rem;
+    text-shadow: 1px 1px 1px var(--okclassic-hero-title-text-shadow-color);
 
-      @media (min-width: 768px) {
-        margin-bottom: 6rem;
-      }
-      @media (min-width: 992px) {
-        font-size: calc(1.25rem + 2.5vw);
-        margin-bottom: 5rem;
-      }
+    @media (min-width: 768px) {
+      font-size: calc(2.5rem + 5vw);
+      text-shadow: 2px 2px 1px var(--okclassic-hero-title-text-shadow-color);
     }
+    @media (min-width: 992px) {
+    }
+  }
 
-    .Dates {
-      font-size: calc(1.25rem + 2.4vw);
+  .BackgroundImage {
+    background-image: url('../../images/bg/scissortail_park-600.jpg');
+    background-size: cover;
+    background-position: center top;
 
-      @media (min-width: 992px) {
-        font-size: calc(1rem + 2.1vw);
-      }
+    @media (min-width: 768px) {
+      background-image: url('../../images/bg/scissortail_park.jpg');
+    }
+    @media (min-width: 992px) {
+    }
+    @media (min-width: 1200px) {
+    }
+    @media (min-width: 1400px) {
+    }
+  }
+  .BackgroundShade {
+    background-color: black;
+    opacity: 0.2;
+
+    [data-bs-theme="dark"] & {
+      opacity: 0.4;
     }
   }
 }
