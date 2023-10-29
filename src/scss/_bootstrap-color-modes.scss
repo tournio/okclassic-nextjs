@@ -6,11 +6,12 @@
 
   --#{$prefix}link-opacity: 1;
 
-  --#{$prefix}hero-body-color: #{$gray-900};
+  --#{$prefix}hero-body-color: #{$gray-200};
+  --#{$prefix}hero-title-year-color: #{$persian-orange};
+  --#{$prefix}hero-title-text-shadow-color: #{$black};
 
   --#{$prefix}section-heading-color: #{$gray-900};
   --#{$prefix}section-heading-bg-color: #{tint-color($reseda-green, 25%)};
-  --#{$prefix}section-heading-text-shadow-color: #{$gray-900};
 
   .navbar {
     --#{$prefix}navbar-color: #{$gray-900};
@@ -48,15 +49,16 @@
 [data-bs-theme="dark"] {
   --#{$prefix}body-bg: #{$field-drab};
   --#{$prefix}background-shade-color: black;
-  --#{$prefix}background-shade-opacity: 0.3;
+  --#{$prefix}background-shade-opacity: 0.45;
 
   --#{$prefix}link-opacity: 1;
 
-  --#{$prefix}hero-body-color: #{$gray-300};
+  --#{$prefix}hero-body-color: #{$gray-400};
+  --#{$prefix}hero-title-year-color: #{$beaver};
+  --#{$prefix}hero-title-text-shadow-color: #{$black};
 
   --#{$prefix}section-heading-color: #{$gray-300};
   --#{$prefix}section-heading-bg-color: #{shade-color($reseda-green, 25%)};
-  --#{$prefix}section-heading-text-shadow-color: #{$gray-900};
 
   .navbar {
     --#{$prefix}navbar-color: #{$gray-300};

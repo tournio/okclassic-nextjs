@@ -4,10 +4,7 @@ const Spotlight = () => {
   const REGISTER_URL = 'https://www.tourn.io/tournaments/okclassic-2024';
 
   const prelimText = <p>
-    We&apos;re working hard putting together the OKClassic 2024, with several fun and fundraiser events
-    happening in the meantime. Keep your eyes peeled!
-    {/*A San Francisco institution for decades, the Golden Gate Classic brings together bowlers from across the country,*/}
-    {/*embodying the spirit of Unity, Fellowship, and Inclusion that define IGBO.*/}
+    We&apos;re working hard putting together the OKClassic 2024, with several fun and fundraiser events happening in the meantime. Keep your eyes peeled!
   </p>;
 
   const registrationOpen = (
