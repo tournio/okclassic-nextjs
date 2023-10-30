@@ -1,4 +1,5 @@
 import styles from './Schedule.module.scss';
+import Link from "next/link";
 
 const Schedule = () => {
 
@@ -72,14 +73,16 @@ const Schedule = () => {
         },
         {
           name: 'Banquet and Cocktail Hour',
-          detail: 'Czech Yukon Hall',
+          detail: 'Yukon Czech Hall',
           more: '205 N Czech Hall Rd, Yukon, OK 73099',
+          url: 'https://czechhall.com/',
           time: '5pm - 6pm',
         },
         {
           name: 'Awards Ceremony',
-          detail: 'Czech Yukon Hall',
+          detail: 'Yukon Czech Hall',
           more: '205 N Czech Hall Rd, Yukon, OK 73099',
+          url: 'https://czechhall.com/',
           time: '6pm - 8pm',
         },
       ]
@@ -117,6 +120,17 @@ const Schedule = () => {
                       {e.detail && (
                         <p>
                           {e.detail}
+                        </p>
+                      )}
+                      {e.more && (
+                        <p className={styles.More}>
+                          {e.url && (
+                            <Link href={e.url}
+                                  target={'_blank'}>
+                              {e.more}
+                            </Link>
+                          )}
+                          {!e.url && e.more}
                         </p>
                       )}
                     </div>
