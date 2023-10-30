@@ -47,7 +47,7 @@ const Location = () => {
 
           <div className={`col`}>
             <h4 className={'display-5 text-center text-sm-start'}>
-              <a href={'http://www.classicbowling.com/'}>
+              <a href={'https://www.amf.com/location/amf-windsor-lanes'}>
                 AMF Windsor Lanes
               </a>
             </h4>

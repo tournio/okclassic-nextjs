@@ -5,6 +5,7 @@ import Hotel from "../components/Hotel/Hotel";
 import Schedule from "../components/Schedule/Schedule";
 import Links from "../components/Links/Links";
 import MainText from "../components/MainText/MainText";
+import CzechHall from "../components/CzechHall/CzechHall";
 
 const MainPage = () => {
   return (
@@ -16,6 +17,7 @@ const MainPage = () => {
       <Schedule/>
       <Hotel/>
       {/*<RegisterCTA/>*/}
+      <CzechHall/>
       <Links/>
     </div>
   )
