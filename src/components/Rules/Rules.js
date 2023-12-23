@@ -25,11 +25,12 @@ The Tournament Director reserves the right to dismiss and/or disqualify any bowl
     1. USBC 2023-2024 Standard Composite Average;
     1. IGBO Tournament Average for the last 12 months, if available.
 1. If a bowler has no USBC 2023-2024 average and/or IGBO Tournament Average, the bowler must use an average calculated in the order listed below:
-    1. A composite of all current USBC certified league averages as of April 1, 2024, provided that a minimum of 21 games have been bowled across all leagues. It is the bowler&apos;s responsibility to provide standings sheets (signed by a league officer), or information to retrieve them online, for ALL leagues bowled as of April 1, 2024.
+    1. A composite of all current USBC certified league averages as of March 17, 2024, provided that a minimum of 21 games have been bowled across all leagues. It is the bowler&apos;s responsibility to provide standings sheets (signed by a league officer), or information to retrieve them online, for ALL leagues bowled as of March 17, 2024.
     1. USBC 2022-2023 Standard Composite Average (minimum of 21 games).
     1. If none of the above averages are available, then the bowler will use a 235 average for the tournament
 1. PBA/PWBA/Team USA members will use a minimum average of 210.
 1. Only 10-pin averages will be used.
+1. Youth and collegiate bowling averages will not be used for tournament averages.  Bowlers must have an adult league average of 21 games or more by March 17, 2024, or will bowl with a 235 average.
 1. It is the bowler&apos;s responsibility to supply complete and accurate information.
 1. Per USBC Rule 319a, item 2: When the previous season’s average is used, and at the time of bowling an entrant has a current average for 21 or more games that is 10 pins or more higher than the prior season&apos;s average, the current average must be used.
 1. Per USBC Rule 319a, item 3: Bowlers are responsible for verifying his/her own average, whether submitted by the bowler, the team captain or others. If the submitted average is lower than required and results in a lower classification or more handicap, the bowler&apos;s score is disqualified. If the submitted average is higher than required, prize winnings will be based on the submitted average. In the case of a team of two or more bowlers, the averages will be combined to determine if the correct total is higher or lower than the submitted total.
@@ -67,27 +68,28 @@ The Tournament Director reserves the right to dismiss and/or disqualify any bowl
       header: 'Fees',
       markdown: `
 1. Only online registration will be accepted. Entry fees are payable online using *STRIPE*. This is the preferred method. Once registration is complete you will receive an invoice to pay through *STRIPE*.
-1. Entries received on or before 11:59 pm March, 25th 2024 and paid in full will pay the early entry fee
- $110.00 per bowler. Entries received and paid for after that will have a $10 late fee applied.
-1. The official deadline for entries is 11:59 pm April 1, 2024. Final payment due is 11:59 pm April 8, 2024.
+1. Entries received at or before 11:59pm March 31, 2024 and paid in full will pay the early entry fee
+ $115.00 per bowler. Entries received and paid for after that will have a $10 late fee applied.
+1. The official deadline for entries is 11:59pm March 31,, 2024. Final payment due is 11:59 pm April 7, 2024.
 1. Applications are subject to return if tournament fills. No walk-ins, fax, e-mail or telephone entries will be accepted. Prize money is paid within 30 days of the close of the tournament.
 1. Entry Free Breakdown (All amounts are in US Dollars)
-    $27
+
+    $32
     : Lineage (includes sales tax)
     
-    $51.75
+    $52.75
     : Prize Fund
     
-    $3
+    $2
     : IGBO Donation
     
-    $2.25
+    $3.25
     : Tournament Expenses (postage, shipping, etc.)
     
     $25
     : Banquet
     
-    **$110**
+    **$115**
     : Total Standard Entry
 `,
     },
@@ -110,19 +112,19 @@ Tournament is not mandatory to bowl in the 9-Pin No-Tap.
 1. Entry Fee:
 
     $30
-    : Division E (0-159)
+    : Division E (0-149)
     
     $35
-    : Division D (160-185)
+    : Division D (150-169)
     
     $40
-    : Division C (186-200)
+    : Division C (170-189)
     
     $45
-    : Division B (201-215)
+    : Division B (190-209)
     
     $50
-    : Division A (216+)
+    : Division A (210+)
 
 1. Tournament directors shall use the same average assigned for the overall tournament to place bowlers in their respective divisions. Bowlers&apos; scores from the Doubles, and Team events will be used to determine the top eight qualifiers in each division. The top eight bowlers from each division will compete in a low-bowler-out competition for prize money. (If there are not enough entries for a division, other options will be used at the time of the tournament.) Entry fee will be returned 100%.
 1. Top 8 bowlers will bowl one game on a pair of lanes with 2 lowest scoring bowlers dropped from competition.
@@ -142,9 +144,9 @@ Tournament is not mandatory to bowl in the 9-Pin No-Tap.
           Tournament Rules
         </h3>
 
-        <p className={`text-md-center`}>
-          (Pending finalization)
-        </p>
+        {/*<p className={`text-md-center`}>*/}
+        {/*  (Pending finalization)*/}
+        {/*</p>*/}
 
         <ol>
           {sections.map((section, i) => (
