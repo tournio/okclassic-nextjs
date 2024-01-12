@@ -53,10 +53,10 @@ const Navigation = () => {
                 })}
 
                 {navLink({
-                  path: 'https://www.tourn.io',
+                  path: 'https://www.tourn.io/tournaments/okc-2024',
                   text: 'Register',
                   disabled: true,
-                  title: 'Registration is not yet open',
+                  title: 'Registration is open!',
                 })}
 
                 {/*<li className={`nav-item`}>*/}
