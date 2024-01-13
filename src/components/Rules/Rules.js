@@ -97,8 +97,8 @@ The Tournament Director reserves the right to dismiss and/or disqualify any bowl
       header: '9-Pin No Tap Tournament Rules',
       markdown: `
 1. We will be offering a 9-Pin No-Tap tournament on Friday, April 19th, 2024.
-1. Sign-up will be between 5:00 p.m. and 6:45 p.m. during OKCLASSIC registration at Windsor Lanes. The 9
-Pin-No-Tap Tournament will begin at 7:00 p.m.
+1. Sign-up will be between 5:00 p.m. and 7:45 p.m. during OKCLASSIC registration at Windsor Lanes. The 9
+Pin-No-Tap Tournament will begin at 8:00 p.m.
 1. Participation will be available to all participants and friends of OKCLASSIC. Bowling in the OKCLASSIC
 Tournament is not mandatory to bowl in the 9-Pin No-Tap.
 1. 9-Pin No Tap will be a scratch event.
