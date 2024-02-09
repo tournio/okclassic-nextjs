@@ -50,7 +50,7 @@ const Links = () => {
     },
     {
       headline:  'BIGD',
-      long: 'Big D Clasisc',
+      long: 'Big D Classic',
       url: 'http://www.bigdclassic.com',
       location: 'Dallas, TX',
     },
