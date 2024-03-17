@@ -33,3 +33,14 @@ $field-drab: #58430eff;
 $golden-brown: #946000ff;
 $raw-umber: #9d5b2fff;
 //$beaver: #997b66ff;
+
+// Add "list-item" to the display utility, so that we can show or hide list-item elements responsively
+$utilities: (
+  "display": (
+    responsive: true,
+    print: true,
+    property: display,
+    class: d,
+    values: list-item inline inline-block block grid inline-grid table table-row table-cell flex inline-flex none
+  ),
+);

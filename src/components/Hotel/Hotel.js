@@ -6,6 +6,15 @@ import Col from "react-bootstrap/Col";
 import Carousel from "react-bootstrap/Carousel";
 import Ratio from "react-bootstrap/Ratio";
 import {useThemeContext} from "../../utils/ThemeContext";
+import Image from "next/image";
+
+import hotel1 from '../../images/hotel/rad_hotel1.jpeg';
+import hotel2 from '../../images/hotel/rad_hotel2.jpeg';
+import hotel3 from '../../images/hotel/rad_hotel3.jpeg';
+import hotel4 from '../../images/hotel/rad_hotel4.jpeg';
+import hotel5 from '../../images/hotel/rad_hotel5.jpeg';
+import hotel6 from '../../images/hotel/rad_hotel6.jpeg';
+import hotel7 from '../../images/hotel/rad_hotel7.jpeg';
 
 const Hotel = () => {
   const {theme} = useThemeContext();
@@ -33,13 +42,13 @@ const Hotel = () => {
     'Shuttle service to and from the airport (call upon arrival)',
   ];
   const photoDeets = [
-    {alt: 'Hotel exterior', filename: 'rad_hotel1'},
-    {alt: 'Hotel lobby', filename: 'rad_hotel2'},
-    {alt: 'Fitness center', filename: 'rad_hotel3'},
-    {alt: 'Pool', filename: 'rad_hotel4'},
-    {alt: 'Restaurant and bar', filename: 'rad_hotel5'},
-    {alt: 'King room', filename: 'rad_hotel6'},
-    {alt: 'Two queens room', filename: 'rad_hotel7'},
+    {alt: 'Hotel exterior', file: hotel1},
+    {alt: 'Hotel lobby', file: hotel2},
+    {alt: 'Fitness center', file: hotel3},
+    {alt: 'Pool', file: hotel4},
+    {alt: 'Restaurant and bar', file: hotel5},
+    {alt: 'King room', file: hotel6},
+    {alt: 'Two queens room', file: hotel7},
   ];
 
   const address = (
@@ -88,20 +97,21 @@ const Hotel = () => {
             <p>
               Book your reservation{' '}
               <strong>
-                <a href={hotelUrl}>
-                  online
-                </a>
+                {/*<a href={hotelUrl}>*/}
+                {/*  online*/}
+                {/*</a>*/}
+                by phone
               </strong>
-              {' '}or by phone to get the tournament rate.
+              {' '}to get the tournament rate.
             </p>
           </Col>
           <Col xs={12} sm={7}>
-            <ul>
+            <ul className={styles.HotelFeature}>
               {features.map((f, i) => {
                 return <li key={i}>{f}</li>
               })}
               {otherFeatures.map((f, i) => {
-                return <li key={i + 100} className={'d-none d-sm-block'}>{f}</li>
+                return <li key={i + 100} className={'d-none d-sm-list-item'}>{f}</li>
               })}
               <li>Reservation deadline is April 14, 2024</li>
             </ul>
@@ -125,37 +135,34 @@ const Hotel = () => {
             </p>
           </Col>
         </Row>
+        <Row className="order-3">
+          <Col>
+            <Carousel fade className={styles.Carousel}>
+              {photoDeets.map((photo, i) => {
+                return (
+                  <Carousel.Item key={i}>
+                    <Image src={photo.file}
+                           alt={photo.alt}
+                           className={"d-block w-100 img-fluid"}
+                    />
+                    <Carousel.Caption>
+                      <p>{photo.alt}</p>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                );
+              })}
+            </Carousel>
+          </Col>
+        </Row>
+        <Row className="order-4 d-none d-sm-block">
+          <Col>
+            <Ratio aspectRatio="4x3">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.840269125851!2d-97.60670914829561!3d35.45874868014981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b2118146f0f12b%3A0xc83de50be8401d2f!2sRadisson%20Hotel%20Oklahoma%20City%20Airport!5e0!3m2!1sen!2sus!4v1580654964666!5m2!1sen!2sus"/>
+            </Ratio>
+          </Col>
+        </Row>
       </div>
-      <Row className="order-3">
-        <Col>
-          <Carousel fade className={styles.Carousel}>
-            {photoDeets.map((photo, i) => {
-              return (
-                <Carousel.Item key={i}>
-                  <img src={'/images/hotels/radisson/' + photo.filename + '.jpeg'}
-                       alt={photo.alt}
-                       className="d-block w-100"
-                  />
-                  <Carousel.Caption>
-                    <p>{photo.alt}</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-              );
-            })}
-          </Carousel>
-        </Col>
-      </Row>
-      <Row className="order-4 d-none d-sm-block">
-        <Col>
-          <Ratio aspectRatio="4x3">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.840269125851!2d-97.60670914829561!3d35.45874868014981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b2118146f0f12b%3A0xc83de50be8401d2f!2sRadisson%20Hotel%20Oklahoma%20City%20Airport!5e0!3m2!1sen!2sus!4v1580654964666!5m2!1sen!2sus"/>
-          </Ratio>
-        </Col>
-      </Row>
-
-      {/*<div className={`section-image-background ${styles.BackgroundImage}`}></div>*/}
-      {/*<div className={`section-background-shade ${styles.BackgroundShade}`}></div>*/}
     </section>
   );
 };
