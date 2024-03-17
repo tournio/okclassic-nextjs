@@ -102,7 +102,10 @@ const Hotel = () => {
                 {/*</a>*/}
                 by phone
               </strong>
-              {' '}to get the tournament rate.
+              {' '}to get the special rate, making sure to mention the{' '}
+              <strong>
+                OKClassic bowling tournament
+              </strong>.
             </p>
           </Col>
           <Col xs={12} sm={7}>
@@ -131,7 +134,7 @@ const Hotel = () => {
               <span className={'visually-hidden'}>
                 Telephone:
               </span>
-              <a href="tel:405-601-0062">405-601-0062</a>
+              <a href="tel:405-546-3305">405-546-3305</a>
             </p>
           </Col>
         </Row>
