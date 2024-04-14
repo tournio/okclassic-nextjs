@@ -17,7 +17,7 @@ const Schedule = () => {
           name: '9-pin No-tap',
           detail: 'AMF Windsor Lanes',
           more: 'Open to all, including non-tournament bowlers',
-          time: '8pm - 10pm',
+          time: '7pm - 10pm',
         },
         {
           name: 'Hospitality Suite',
