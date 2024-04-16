@@ -55,7 +55,7 @@ const Navigation = () => {
                 {navLink({
                   path: 'https://www.tourn.io/tournaments/okc-2024',
                   text: 'Register',
-                  disabled: true,
+                  // disabled: false,
                   title: 'Registration is open!',
                 })}
 

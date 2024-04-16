@@ -22,11 +22,18 @@ const Spotlight = () => {
     </>
   );
 
+  const thisWeekend = (
+    <p>
+      It&apos;s tournament weekend, y&apos;ll! We can&apos;t wait to see everyone!
+    </p>
+  );
+
   return (
     <section className={`${styles.Spotlight}`}>
       <div className={``}>
         {/*{prelimText}*/}
-        {registrationOpen}
+        {/*{registrationOpen}*/}
+        {thisWeekend}
       </div>
     </section>
   );
