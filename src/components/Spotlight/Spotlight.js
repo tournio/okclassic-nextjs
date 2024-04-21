@@ -1,31 +1,61 @@
 import styles from './Spotlight.module.scss';
+import Image from "next/image";
+import wrappedGift from "../../images/wrapped-gift.jpg";
 
 const Spotlight = () => {
-  const REGISTER_URL = 'https://www.tourn.io/tournaments/okc-2024';
+  // const REGISTER_URL = 'https://www.tourn.io/tournaments/okc-2024';
 
-  const prelimText = <p>
-    We&apos;re working hard putting together the OKClassic 2024, with several fun and fundraiser events happening in the meantime. Keep your eyes peeled!
-  </p>;
+  // const prelimText = <p>
+  //   We&apos;re working hard putting together the OKClassic 2024, with several fun and fundraiser events happening in the meantime. Keep your eyes peeled!
+  // </p>;
 
-  const registrationOpen = (
-    <>
-      <p>
-        Registration is open, for bowlers with and without teams!
-      </p>
-      <p>
-        <a href={REGISTER_URL}
-           className={`btn btn-lg btn-primary`}
-        >
-          Register Online
+  // const registrationOpen = (
+  //   <>
+  //     <p>
+  //       Registration is open, for bowlers with and without teams!
+  //     </p>
+  //     <p>
+  //       <a href={REGISTER_URL}
+  //          className={`btn btn-lg btn-primary`}
+  //       >
+  //         Register Online
+  //       </a>
+  //     </p>
+  //   </>
+  // );
+
+  // const thisWeekend = (
+  //   <p>
+  //     It&apos;s tournament weekend, y&apos;ll! We can&apos;t wait to see everyone!
+  //   </p>
+  // );
+
+  const allDone = (
+    <div className={'row'}>
+      <div className={'col-5 col-md-3'}>
+        <Image src={wrappedGift}
+               className={'img-fluid'}
+               alt={"A wrapped gift"}>
+        </Image>
+        <a title={"Photo by Nina Mercado on Unsplash"}
+           className={"d-block d-md-none"}
+          href="https://unsplash.com/@nina_mercado?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+          <span className={'bi bi-camera'} aria-hidden={true}>
+          </span>
+          <span className={'visually-hidden'}>Photo by Nina Mercado on Unsplash</span>
         </a>
+        <span className={`d-none d-md-block ${styles.PhotoCredit}`}>
+          Photo by <a
+            href="https://unsplash.com/@nina_mercado?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nina Mercado</a> on <a
+            href="https://unsplash.com/photos/black-and-brown-gift-box-on-white-and-black-floral-textile-_qN6tmGjmtg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </span>
+      </div>
+      <p className={'col'}>
+        That&apos;s a wrap! What a great weekend of tournament bowling. We hope everyone had a fantastic time! Results
+        will be posted here
+        as soon as they are ready, keep your eyes peeled!
       </p>
-    </>
-  );
-
-  const thisWeekend = (
-    <p>
-      It&apos;s tournament weekend, y&apos;ll! We can&apos;t wait to see everyone!
-    </p>
+    </div>
   );
 
   return (
@@ -33,7 +63,8 @@ const Spotlight = () => {
       <div className={``}>
         {/*{prelimText}*/}
         {/*{registrationOpen}*/}
-        {thisWeekend}
+        {/*{thisWeekend}*/}
+        {allDone}
       </div>
     </section>
   );
