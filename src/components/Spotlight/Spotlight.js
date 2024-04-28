@@ -50,11 +50,16 @@ const Spotlight = () => {
             href="https://unsplash.com/photos/black-and-brown-gift-box-on-white-and-black-floral-textile-_qN6tmGjmtg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
         </span>
       </div>
-      <p className={'col'}>
-        That&apos;s a wrap! What a great weekend of tournament bowling. We hope everyone had a fantastic time! Results
-        will be posted here
-        as soon as they are ready, keep your eyes peeled!
-      </p>
+      <div className={`col`}>
+        <p>
+          That&apos;s a wrap! What a great weekend of tournament bowling. We hope everyone had a fantastic time!
+        </p>
+        <p>
+          <a href={'/results'} className={`btn btn-info`}>
+            Results
+          </a>
+        </p>
+      </div>
     </div>
   );
 
