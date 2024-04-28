@@ -6,7 +6,7 @@ import React from "react";
 import {Button, ListGroup} from "react-bootstrap";
 
 const Results = () => {
-  const available2023 = [
+  const available = [
     [
       { id: 'team', name: 'Team Event' },
       { id: 'doubles', name: 'Doubles Event' },
@@ -26,23 +26,23 @@ const Results = () => {
   return (
     <section className={`${styles.Results}`}>
       <h3 className={`section-heading`}>
-        2023 Tournament Results
+        2024 Tournament Results
       </h3>
 
       <Row className={'px-2 px-xl-0'}>
-        {available2023.map((resultSet, i) => (
+        {available.map((resultSet, i) => (
           <Col lg={6} key={i}>
             <Card className={`${styles.ResultsCard} mb-2`}>
               <ListGroup variant='flush' className={`${styles.ResultList}`}>
                 { resultSet.map((result, j) => {
                   return (
                     <ListGroup.Item key={j} className={`${styles.ResultItem} d-flex justify-content-between`}>
-                      <a href={`/results/2023/${result.id}.pdf`}
+                      <a href={`/results/2024/${result.id}.pdf`}
                          className={`${styles.ResultLink} mt-2`}>
                         {`${result.name}`}
                       </a>
                       <Button variant='outline-secondary'
-                              href={`/results/2023/${result.id}.pdf`}
+                              href={`/results/2024/${result.id}.pdf`}
                               title='Download PDF'>
                         <i className="bi-download" aria-hidden={true}></i>
                       </Button>
