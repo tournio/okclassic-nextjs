@@ -21,6 +21,18 @@ const Results = () => {
       { id: 'optional_scratch_d', name: 'Optional Scratch - Div D' },
       { id: 'optional_scratch_e', name: 'Optional Scratch - Div E' },
     ],
+    [
+      { id: 'scratch_masters_division_a', name: 'Scratch Masters - Div A' },
+      { id: 'scratch_masters_with_score_division_a', name: 'Scratch Masters w/ Score - Div A' },
+      { id: 'scratch_masters_division_b', name: 'Scratch Masters - Div B' },
+      { id: 'scratch_masters_with_score_division_b', name: 'Scratch Masters w/ Score - Div B' },
+      { id: 'scratch_masters_division_c', name: 'Scratch Masters - Div C' },
+      { id: 'scratch_masters_with_score_division_c', name: 'Scratch Masters w/ Score - Div C' },
+      { id: 'scratch_masters_division_d', name: 'Scratch Masters - Div D' },
+      { id: 'scratch_masters_with_score_division_d', name: 'Scratch Masters w/ Score - Div D' },
+      { id: 'scratch_masters_division_e', name: 'Scratch Masters - Div E' },
+      { id: 'scratch_masters_with_score_division_e', name: 'Scratch Masters w/ Score - Div E' },
+    ],
   ];
 
   return (
