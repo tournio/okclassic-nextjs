@@ -15,7 +15,7 @@ const MainPage = () => {
       <MainText/>
       <Location/>
       {/*<Schedule/>*/}
-      <Hotel/>
+      {/*<Hotel/>*/}
       {/*<RegisterCTA/>*/}
       <CzechHall/>
       <Links/>

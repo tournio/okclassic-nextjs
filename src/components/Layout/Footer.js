@@ -20,6 +20,14 @@ const Footer = () => {
           <span>
             OKClassic
           </span>
+
+          <a href={'https://www.facebook.com/OKClassicBowlingTournament'}
+             className={'ps-2'}>
+            <i className={'bi bi-facebook'} aria-hidden={true}/>
+            <span className={'visually-hidden'}>
+              SHIFTID on Facebook
+            </span>
+          </a>
         </p>
       </div>
     </div>

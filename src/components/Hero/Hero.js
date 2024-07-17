@@ -8,7 +8,7 @@ const Hero = () => {
         <h1 className={`display-1 ${styles.Title}`}>
           OKClassic
           <span className={styles.Year}>
-            2024
+            2025
           </span>
         </h1>
       </div>
