@@ -25,7 +25,7 @@ const Footer = () => {
              className={'ps-2'}>
             <i className={'bi bi-facebook'} aria-hidden={true}/>
             <span className={'visually-hidden'}>
-              SHIFTID on Facebook
+              OKClassic on Facebook
             </span>
           </a>
         </p>
