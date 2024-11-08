@@ -8,13 +8,14 @@ import Ratio from "react-bootstrap/Ratio";
 import {useThemeContext} from "../../utils/ThemeContext";
 import Image from "next/image";
 
-import hotel1 from '../../images/hotel/rad_hotel1.jpeg';
-import hotel2 from '../../images/hotel/rad_hotel2.jpeg';
-import hotel3 from '../../images/hotel/rad_hotel3.jpeg';
-import hotel4 from '../../images/hotel/rad_hotel4.jpeg';
-import hotel5 from '../../images/hotel/rad_hotel5.jpeg';
-import hotel6 from '../../images/hotel/rad_hotel6.jpeg';
-import hotel7 from '../../images/hotel/rad_hotel7.jpeg';
+import hotel1 from '../../images/hotel/hotel-sign.jpeg';
+import hotel2 from '../../images/hotel/pool-party.jpeg';
+import hotel3 from '../../images/hotel/boom-suite.jpeg';
+import hotel4 from '../../images/hotel/double-queen-room.jpeg';
+import hotel5 from '../../images/hotel/double-queen-suite.jpeg';
+import hotel6 from '../../images/hotel/king-room.jpeg';
+import hotel7 from '../../images/hotel/suite-bathroom.jpeg';
+import hotel8 from '../../images/hotel/eagle.jpeg';
 
 const Hotel = () => {
   const {theme} = useThemeContext();
@@ -27,42 +28,38 @@ const Hotel = () => {
     setColorScheme(theme.active);
   }, [theme]);
 
-  const hotelUrl = 'https://www.choicehotels.com/reservations/groups/G9658998';
-  const hotelName = 'Radisson Hotel OKC Airport';
+  const hotelUrl = 'https://www.districthotelok.com/';
+  const hotelName = 'The District';
   const features = [
-    'Rooms start at $84/night available April 19-22 (plus taxes)',
-    'Complimentary WiFi and breakfast',
-    'Restaurant and bar',
-    'Hospitality suites',
-  ];
-  const otherFeatures = [
-    'Outdoor swimming pool',
-    'Fitness center',
-    'Room service',
-    'Shuttle service to and from the airport (call upon arrival)',
+    'Two heated outdoor resort-style pools',
+    'Jaw-dropping theme rooms and suites',
+    'Elevated bars: the OKC Eagle and The County Line',
+    'Free parking',
+    'Free Wi-fi',
   ];
   const photoDeets = [
-    {alt: 'Hotel exterior', file: hotel1},
-    {alt: 'Hotel lobby', file: hotel2},
-    {alt: 'Fitness center', file: hotel3},
-    {alt: 'Pool', file: hotel4},
-    {alt: 'Restaurant and bar', file: hotel5},
+    {alt: 'Hotel sign', file: hotel1},
+    {alt: 'Pool party at District', file: hotel2},
+    {alt: 'The Boom Suite', file: hotel3},
+    {alt: 'The Double Queen Room', file: hotel4},
+    {alt: 'The Double Queen Suite', file: hotel5},
     {alt: 'King room', file: hotel6},
-    {alt: 'Two queens room', file: hotel7},
+    {alt: 'A suite bathroom', file: hotel7},
+    {alt: 'The logo for the OKC Eagle', file: hotel8},
   ];
 
   const address = (
     <address>
       <span className="d-block">
-        4716 W I-40 Service Road
+        2200 NW 40th St.
       </span>
       <span className="d-block">
-        Oklahoma City, OK 73128
+        Oklahoma City, OK 73112
       </span>
     </address>
   );
 
-  const hotelLogoPath = `/images/hotels/radisson/rad${colorScheme === 'dark' ? '-dark' : ''}.svg`;
+  const hotelLogoPath = `/images/district-logo-transparent.webp`;
 
   return (
     <section className={styles.Hotel}>
@@ -89,10 +86,7 @@ const Hotel = () => {
               {' '}is proud to host the OKClassic, with special rates for tournament bowlers.
             </p>
             <p className={'d-none d-sm-block'}>
-              Nestled four miles north of Will Rogers World Airport on Interstate 40, Radisson Hotel Oklahoma City
-              Airport is perfectly positioned for your family vacation or corporate trip to The Big Friendly. Our newly
-              built property provides easy access to State Fair Park, Frontier City and Stars basketball games at
-              Oklahoma City University.
+              Formerly known as Habana Inn, our establishment has a long history and has undergone various transformations. Under the new ownership group of Steve Blundell and Tim Selby, we are proud to introduce The District Hotel, a place that aims to bring the LGBTQ+ & Ally community together and create a vibrant and inclusive atmosphere for all.
             </p>
             <p>
               Book your reservation{' '}
@@ -113,16 +107,13 @@ const Hotel = () => {
               {features.map((f, i) => {
                 return <li key={i}>{f}</li>
               })}
-              {otherFeatures.map((f, i) => {
-                return <li key={i + 100} className={'d-none d-sm-list-item'}>{f}</li>
-              })}
-              <li>Reservation deadline is April 14, 2024</li>
+              {/*<li>Reservation deadline is April 14, 2024</li>*/}
             </ul>
           </Col>
           <Col xs={12} sm={5}>
             <div className={'d-flex'}>
               <i className={'bi bi-geo-fill pe-2 h1'} aria-hidden={true}/>
-              <a href={'https://goo.gl/maps/nzfMpVDhDnfmmB8r9'} className={'d-block d-sm-none'}>
+              <a href={'https://maps.app.goo.gl/U6DwHFNjEyzYB8SC7'} className={'d-block d-sm-none'}>
                 {address}
               </a>
               <div className={'d-none d-sm-block'}>
@@ -134,7 +125,7 @@ const Hotel = () => {
               <span className={'visually-hidden'}>
                 Telephone:
               </span>
-              <a href="tel:405-546-3305">405-546-3305</a>
+              <a href="tel:405-528-2221">405-528-2221</a>
             </p>
           </Col>
         </Row>
@@ -146,11 +137,8 @@ const Hotel = () => {
                   <Carousel.Item key={i}>
                     <Image src={photo.file}
                            alt={photo.alt}
-                           className={"d-block w-100 img-fluid"}
+                           className={"d-block mx-auto img-fluid"}
                     />
-                    <Carousel.Caption>
-                      <p>{photo.alt}</p>
-                    </Carousel.Caption>
                   </Carousel.Item>
                 );
               })}
@@ -161,7 +149,7 @@ const Hotel = () => {
           <Col>
             <Ratio aspectRatio="4x3">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.840269125851!2d-97.60670914829561!3d35.45874868014981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b2118146f0f12b%3A0xc83de50be8401d2f!2sRadisson%20Hotel%20Oklahoma%20City%20Airport!5e0!3m2!1sen!2sus!4v1580654964666!5m2!1sen!2sus"/>
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3247.6753727443834!2d-97.55244032313584!3d35.512304472642334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b21bba70aef765%3A0xc49d8d9aa3385b86!2sDistrict%20Hotel!5e0!3m2!1sen!2sus!4v1731088345735!5m2!1sen!2sus"/>
             </Ratio>
           </Col>
         </Row>
