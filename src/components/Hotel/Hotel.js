@@ -10,12 +10,14 @@ import Image from "next/image";
 
 import hotel1 from '../../images/hotel/hotel-sign.jpeg';
 import hotel2 from '../../images/hotel/pool-party.jpeg';
-import hotel3 from '../../images/hotel/boom-suite.jpeg';
-import hotel4 from '../../images/hotel/double-queen-room.jpeg';
-import hotel5 from '../../images/hotel/double-queen-suite.jpeg';
-import hotel6 from '../../images/hotel/king-room.jpeg';
-import hotel7 from '../../images/hotel/suite-bathroom.jpeg';
-import hotel8 from '../../images/hotel/eagle.jpeg';
+import hotel3 from '../../images/hotel/pool-ladder.jpeg';
+import hotel4 from '../../images/hotel/pool-igloo.jpeg';
+import hotel5 from '../../images/hotel/boom-suite.jpeg';
+import hotel6 from '../../images/hotel/double-queen-room.jpeg';
+import hotel7 from '../../images/hotel/double-queen-suite.jpeg';
+import hotel8 from '../../images/hotel/king-room.jpeg';
+import hotel9 from '../../images/hotel/suite-bathroom.jpeg';
+import hotelA from '../../images/hotel/eagle.jpeg';
 
 const Hotel = () => {
   const {theme} = useThemeContext();
@@ -31,6 +33,8 @@ const Hotel = () => {
   const hotelUrl = 'https://www.districthotelok.com/';
   const hotelName = 'The District';
   const features = [
+    '$79/night room rate for OKC bowlers',
+    'Hospitality Suite Friday and Saturday nights',
     'Two heated outdoor resort-style pools',
     'Jaw-dropping theme rooms and suites',
     'Elevated bars: the OKC Eagle and The County Line',
@@ -40,12 +44,14 @@ const Hotel = () => {
   const photoDeets = [
     {alt: 'Hotel sign', file: hotel1},
     {alt: 'Pool party at District', file: hotel2},
-    {alt: 'The Boom Suite', file: hotel3},
-    {alt: 'The Double Queen Room', file: hotel4},
-    {alt: 'The Double Queen Suite', file: hotel5},
-    {alt: 'King room', file: hotel6},
-    {alt: 'A suite bathroom', file: hotel7},
-    {alt: 'The logo for the OKC Eagle', file: hotel8},
+    {alt: 'One of the pools at District', file: hotel3},
+    {alt: 'Wintertime means an igloo for the pool', file: hotel4},
+    {alt: 'The Boom Suite', file: hotel5},
+    {alt: 'The Double Queen Room', file: hotel6},
+    {alt: 'The Double Queen Suite', file: hotel7},
+    {alt: 'King room', file: hotel8},
+    {alt: 'A suite bathroom', file: hotel9},
+    {alt: 'The logo for the OKC Eagle', file: hotelA},
   ];
 
   const address = (
@@ -70,8 +76,8 @@ const Hotel = () => {
       <div className={styles.Content}>
         <Row className="justify-content-center">
           <Col xs={6}>
-            <p>
-              <a href={hotelUrl} className={styles.Logo}>
+            <p className={styles.Logo}>
+              <a href={hotelUrl}>
                 <img className="img-fluid"
                      src={hotelLogoPath}
                      alt={hotelName + ' Logo'}/>
@@ -96,10 +102,10 @@ const Hotel = () => {
                 {/*</a>*/}
                 by phone
               </strong>
-              {' '}to get the special rate, making sure to mention the{' '}
+              {' '}to get the special rate, making sure to use the discount code {' '}
               <strong>
-                OKClassic bowling tournament
-              </strong>.
+                OKCLASSIC
+              </strong>. We expect our block to sell out, so be sure to get your reservation in early!
             </p>
           </Col>
           <Col xs={12} sm={7}>

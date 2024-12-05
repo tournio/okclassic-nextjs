@@ -14,7 +14,7 @@ const MainPage = () => {
       <Hero/>
       <MainText/>
       <Location/>
-      {/*<Schedule/>*/}
+      <Schedule/>
       <Hotel/>
       {/*<RegisterCTA/>*/}
       <CzechHall/>

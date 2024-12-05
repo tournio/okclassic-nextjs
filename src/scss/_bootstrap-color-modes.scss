@@ -94,4 +94,8 @@
   --#{$prefix}location-logo-bg-gradient-start: 0.7;
 
   --#{$prefix}schedule-date-bg: #{$field-drab};
+
+  --#{$prefix}hotel-logo-bg-start: #{shade-color($royal-blue, 40%)};
+  --#{$prefix}hotel-logo-bg-middle: #{$royal-blue};
+  --#{$prefix}hotel-logo-bg-end: #{shade-color($royal-blue, 40%)};
 }

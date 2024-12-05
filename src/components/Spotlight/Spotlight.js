@@ -1,12 +1,11 @@
-import styles from './Spotlight.module.scss';
 import Image from "next/image";
 import wrappedGift from "../../images/wrapped-gift.jpg";
+import {REGISTER_URL} from "../../utils/misc";
+import styles from './Spotlight.module.scss';
 
 const Spotlight = () => {
-  // const REGISTER_URL = 'https://www.tourn.io/tournaments/okc-2024';
-
   const prelimText = <p>
-    We&apos;re working hard putting together the OKClassic 2025, with several fun and fundraiser events happening in the meantime. Keep your eyes peeled for what we&apos;ve got cooking!
+    We&apos;re working hard putting together the 35th OKClassic, with several fun and fundraiser events happening in the meantime. Keep your eyes peeled for what we&apos;ve got cooking!
   </p>;
 
   // const registrationOpen = (
