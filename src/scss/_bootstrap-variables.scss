@@ -9,10 +9,6 @@ $carousel-dark-caption-color: white;
 $carousel-dark-indicator-active-bg:  white;
 $carousel-dark-control-icon-filter:  invert(0) grayscale(100);
 
-//
-// Our custom colors
-//
-
 // intended for light color mode
 $reseda-green: #797d62ff;
 $reseda-green-rgb: to-rgb($reseda-green);
@@ -33,6 +29,8 @@ $field-drab: #58430eff;
 $golden-brown: #946000ff;
 $raw-umber: #9d5b2fff;
 //$beaver: #997b66ff;
+
+$royal-blue: #0061bfff;
 
 // Add "list-item" to the display utility, so that we can show or hide list-item elements responsively
 $utilities: (

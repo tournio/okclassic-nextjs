@@ -1,6 +1,18 @@
 .Hotel {
   .Content {
     margin: 0 0.5rem;
+
+    .Logo {
+      [data-bs-theme="dark"] & {
+        background: linear-gradient(90deg,
+          var(--okclassic-hotel-logo-bg-start),
+          var(--okclassic-hotel-logo-bg-middle),
+          var(--okclassic-hotel-logo-bg-end)
+        );
+        //background-color: var(--okclassic-hotel-logo-bg-middle);
+      }
+
+    }
   }
 
   .Carousel {

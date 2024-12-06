@@ -5,7 +5,7 @@ const Schedule = () => {
 
   const days = [
     {
-      date: 'Friday, April 19',
+      date: 'Friday, April 11',
       events: [
         {
           name: 'Tournament Check-in',
@@ -17,18 +17,18 @@ const Schedule = () => {
           name: '9-pin No-tap',
           detail: 'AMF Windsor Lanes',
           more: 'Open to all, including non-tournament bowlers',
-          time: '7pm - 10pm',
+          time: '7pm - 9pm',
         },
         {
           name: 'Hospitality Suite',
-          detail: 'Radisson Hotel OKC Airport',
+          detail: 'District Hotel & Resort',
           more: 'badge required to enter',
           time: '9pm - midnight',
         },
       ],
     },
     {
-      date: 'Saturday, April 20',
+      date: 'Saturday, April 12',
       events: [
         {
           name: 'All-Tournament Registration',
@@ -50,14 +50,14 @@ const Schedule = () => {
         },
         {
           name: 'Hospitality Suite',
-          detail: 'Radisson Hotel OKC Airport',
+          detail: 'District Hotel & Resort',
           more: 'badge required to enter',
-          time: '9pm - midnight',
+          time: '7pm - midnight',
         },
       ],
     },
     {
-      date: 'Sunday, April 21',
+      date: 'Sunday, April 13',
       events: [
         {
           name: 'Singles Event',
