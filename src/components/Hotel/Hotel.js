@@ -105,7 +105,7 @@ const Hotel = () => {
               {' '}to get the special rate, making sure to use the discount code {' '}
               <strong>
                 OKCLASSIC
-              </strong>. We expect our block to sell out, so be sure to get your reservation in early!
+              </strong>. We expect our block to sell out, so be sure to get your reservation in early! All guests must be 21+.
             </p>
           </Col>
           <Col xs={12} sm={7}>
