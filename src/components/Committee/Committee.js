@@ -23,11 +23,11 @@ const Committee = () => {
     },
     {
       role: 'Fundraising',
-      name: 'Jay Witt',
+      name: 'Gary Jordan',
     },
     {
       role: 'Raffles',
-      name: 'Gary Jordan, Taylor Adams, Heather Himes',
+      name: 'Gary Jordan',
     },
     {
       role: 'Technologist',

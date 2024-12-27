@@ -57,7 +57,7 @@ The Tournament Director reserves the right to dismiss and/or disqualify any bowl
     {
       header: 'Eligibility',
       markdown: `
-1.  Entrant must be a member of USBC, and provide proof of membership and certification number with their entry. Non-members may pay a Participation Fee of $5.00 to participate (USBC Rule 301b).
+1.  Entrant must be a member of USBC, and provide proof of membership and certification number with their entry. Non-members must pay a Participation Fee of $5.00 to participate (USBC Rule 301b).
 1. Entrants must be a member of an IGBO Member League, or current IGBO Associate Member. If not already an IGBO member, entrant must apply for Associate Membership, and pay the $25.00 IGBO fee prior to bowling.
 1. Only one (1) PBA/PWBA/Team USA member is allowed per team.
 1. Substitutes will be allowed to participate at the Tournament Director’s discretion. Their average will be determined by the *Entering Average* guidelines.
@@ -68,28 +68,27 @@ The Tournament Director reserves the right to dismiss and/or disqualify any bowl
       header: 'Fees',
       markdown: `
 1. Only online registration will be accepted. Entry fees are payable online using *STRIPE*. This is the preferred method. Once registration is complete you will receive an invoice to pay through *STRIPE*.
-1. Entries received at or before 11:59pm March 30, 2025 and paid in full will pay the early entry fee
- $115.00 per bowler. Entries received and paid for after that will have a $10 late fee applied.
+1. Entries received at or before 11:59pm March 22, 2025 and paid in full by March 29, 2025, will pay the early entry fee of $120.00 per bowler. Entries received and paid for after that will have a $10 late fee applied.
 1. The official deadline for entries is 11:59pm March 30, 2025. Final payment due is 11:59 pm April 6, 2025.
 1. Applications are subject to return if tournament fills. No walk-ins, fax, e-mail or telephone entries will be accepted. Prize money is paid within 30 days of the close of the tournament.
 1. Entry Free Breakdown (All amounts are in US Dollars)
 
-    $32
+    $37.50
     : Lineage (includes sales tax)
     
-    $52.75
+    $53
     : Prize Fund
     
     $2
-    : IGBO Donation
+    : IGBO Fee
     
-    $3.25
+    $7.50
     : Tournament Expenses (postage, shipping, etc.)
     
-    $25
+    $20
     : Banquet
     
-    **$115**
+    **$120**
     : Total Standard Entry
 `,
     },
@@ -97,12 +96,13 @@ The Tournament Director reserves the right to dismiss and/or disqualify any bowl
       header: '9-Pin No Tap Tournament Rules',
       markdown: `
 1. We will be offering a 9-Pin No-Tap tournament on Friday, April 11th, 2025.
-1. Sign-up will be between 5:00 p.m. and 7:45 p.m. during OKCLASSIC registration at Windsor Lanes. The 9
-Pin-No-Tap Tournament will begin at 8:00 p.m.
+1. Sign-up will be between 5:00 p.m. and 6:45 p.m. during OKCLASSIC registration at Windsor Lanes. The 9
+Pin-No-Tap Tournament will begin at 7:00 p.m.
 1. Participation will be available to all participants and friends of OKCLASSIC. Bowling in the OKCLASSIC
 Tournament is not mandatory to bowl in the 9-Pin No-Tap.
 1. 9-Pin No Tap will be a scratch event.
 1. The prize fund returned will be 100%. Total Entry Fee Payout is 1:10.
+1. Bowling lineage ($12.50 per bowler) to be deducted from each entry fee.
 `,
     },
   ];
