@@ -68,7 +68,7 @@ The Tournament Director reserves the right to dismiss and/or disqualify any bowl
       header: 'Fees',
       markdown: `
 1. Only online registration will be accepted. Entry fees are payable online using *STRIPE*. This is the preferred method. Once registration is complete you will receive an invoice to pay through *STRIPE*.
-1. Entries received at or before 11:59pm March 22, 2025 and paid in full by March 29, 2025, will pay the early entry fee of $120.00 per bowler. Entries received and paid for after that will have a $10 late fee applied.
+1. Entries received and paid in full at or before 11:59pm March 22, 2025, will pay the early entry fee of $120.00 per bowler. Entries received and/or paid for after that will have a $10 late fee applied.
 1. The official deadline for entries is 11:59pm March 30, 2025. Final payment due is 11:59 pm April 6, 2025.
 1. Applications are subject to return if tournament fills. No walk-ins, fax, e-mail or telephone entries will be accepted. Prize money is paid within 30 days of the close of the tournament.
 1. Entry Free Breakdown (All amounts are in US Dollars)
