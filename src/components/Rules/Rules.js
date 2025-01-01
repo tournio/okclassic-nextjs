@@ -93,6 +93,32 @@ The Tournament Director reserves the right to dismiss and/or disqualify any bowl
 `,
     },
     {
+      header: 'Optional Scratch',
+      markdown: `
+1. The entry fee for this optional event is $40.00.
+1. This event uses the same average divisions as the Mace Adams Divisional Shootout.
+1. This event uses the bowlers score sans handicao from all games bowled during the Singles, Doubles, and Team events.
+1. Payout will be awarded for **High Scratch Game**, **High Scratch Series**, and **High Scratch All-Events** for each division.
+1. Payout ratio will be no less than 1 in 8, and will payout 100% of the entry fees.
+`,
+    },
+    {
+      header: 'Best 3 of 9',
+      markdown: `
+1. The entry fee for this optional event is $25.00
+1. This event uses the bowlers highest three (3) handicap games bowled during any of the Singles, Doubles, or Team events.
+1. Payout ratio will be no less than 1 in 10.
+`,
+    },
+    {
+      header: 'Mystery Score',
+      markdown: `
+1. The entry fee for this optional event is $20.00.
+1. This event applies to games 1 and 2 of each of the Singles, Doubles, and Team events.
+1. The last two (2) digits of a score will be randomly generated, and the prize money will be split between all of the entrants with a matching score. We will continue this process until someone wins each game.
+`,
+    },
+    {
       header: '9-Pin No Tap Tournament Rules',
       markdown: `
 1. We will be offering a 9-Pin No-Tap tournament on Friday, April 11th, 2025.
@@ -163,7 +189,7 @@ Tournament is not mandatory to bowl in the 9-Pin No-Tap.
 
       <section className={styles.Rules}>
         <h3 className={`section-heading`} id={'scratch_masters_rules'}>
-          Ray Nastasi Scratch Masters Rules
+          Ray Nastasi Scratch Masters
         </h3>
 
         <p className={`text-md-center`}>
