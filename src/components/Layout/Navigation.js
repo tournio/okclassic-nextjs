@@ -1,6 +1,7 @@
 import Link from "next/link";
-import ColorModeToggler from "../ColorModeToggler/ColorModeToggler";
 import {useRouter} from "next/router";
+import ColorModeToggler from "../ColorModeToggler/ColorModeToggler";
+import {REGISTER_URL} from "../../utils/misc";
 
 const Navigation = () => {
   const router = useRouter();
@@ -53,10 +54,11 @@ const Navigation = () => {
                 })}
 
                 {navLink({
-                  path: 'https://www.tourn.io/tournaments/okc-2025',
+                  path: REGISTER_URL,
                   text: 'Register',
-                  disabled: true,
-                  title: 'Registration is not yet available',
+                  title: 'Register for the tournament',
+                  // disabled: true,
+                  // title: 'Registration is not yet available',
                 })}
 
                 {/*<li className={`nav-item`}>*/}

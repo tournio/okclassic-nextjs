@@ -4,24 +4,24 @@ import {REGISTER_URL} from "../../utils/misc";
 import styles from './Spotlight.module.scss';
 
 const Spotlight = () => {
-  const prelimText = <p>
-    We&apos;re working hard putting together the 35th OKClassic, with several fun and fundraiser events happening in the meantime. Keep your eyes peeled for what we&apos;ve got cooking!
-  </p>;
+  // const prelimText = <p>
+  //   We&apos;re working hard putting together the 35th OKClassic, with several fun and fundraiser events happening in the meantime. Keep your eyes peeled for what we&apos;ve got cooking!
+  // </p>;
 
-  // const registrationOpen = (
-  //   <>
-  //     <p>
-  //       Registration is open, for bowlers with and without teams!
-  //     </p>
-  //     <p>
-  //       <a href={REGISTER_URL}
-  //          className={`btn btn-lg btn-primary`}
-  //       >
-  //         Register Online
-  //       </a>
-  //     </p>
-  //   </>
-  // );
+  const registrationOpen = (
+    <>
+      <p>
+        Registration is open, for bowlers with and without teams!
+      </p>
+      <p>
+        <a href={REGISTER_URL}
+           className={`btn btn-lg btn-primary`}
+        >
+          Register Online
+        </a>
+      </p>
+    </>
+  );
 
   // const thisWeekend = (
   //   <p>
@@ -65,8 +65,8 @@ const Spotlight = () => {
   return (
     <section className={`${styles.Spotlight}`}>
       <div className={``}>
-        {prelimText}
-        {/*{registrationOpen}*/}
+        {/*{prelimText}*/}
+        {registrationOpen}
         {/*{thisWeekend}*/}
         {/*{allDone}*/}
       </div>

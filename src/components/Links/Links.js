@@ -52,13 +52,13 @@ const Links = () => {
       headline:  'BIGD',
       long: 'Big D Classic',
       url: 'http://www.bigdclassic.com',
-      location: 'Dallas, TX',
+      location: 'Dallas/Fort Worth, TX',
     },
     {
       headline:  'TROT',
       long: 'Texas Roll-off Tournament',
       url: 'http://trotbowling.com/',
-      location: 'Grand Prairie, TX',
+      location: 'Dallas/Fort Worth, TX',
     },
     {
       headline:  'HIT',
@@ -76,7 +76,7 @@ const Links = () => {
       headline:  'SHIFTID',
       long: 'Seniors Handicap Invitational Family Tournament in DFW',
       url: 'http://shiftid.org',
-      location: 'Garland, TX',
+      location: 'Dallas/Fort Worth, TX',
     },
     {
       headline:  'AUS',
