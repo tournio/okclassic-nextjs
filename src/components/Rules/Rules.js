@@ -170,9 +170,9 @@ Tournament is not mandatory to bowl in the 9-Pin No-Tap.
           Tournament Rules
         </h3>
 
-        <p className={`text-md-center`}>
-          (Pending finalization)
-        </p>
+        {/*<p className={`text-md-center`}>*/}
+        {/*  (Pending finalization)*/}
+        {/*</p>*/}
 
         <ol>
           {sections.map((section, i) => (
@@ -192,9 +192,9 @@ Tournament is not mandatory to bowl in the 9-Pin No-Tap.
           Ray Nastasi Scratch Masters
         </h3>
 
-        <p className={`text-md-center`}>
-          (Also pending finalization)
-        </p>
+        {/*<p className={`text-md-center`}>*/}
+        {/*  (Also pending finalization)*/}
+        {/*</p>*/}
 
         <ReactMarkdown>{scratchMarkdown}</ReactMarkdown>
 
