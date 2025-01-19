@@ -9,7 +9,7 @@ const Schedule = () => {
       events: [
         {
           name: 'Tournament Check-in',
-          detail: 'Bowling center meeting room',
+          detail: 'Bowling center main lobby',
           more: '',
           time: '5pm - 9pm',
         },
@@ -21,7 +21,7 @@ const Schedule = () => {
         },
         {
           name: 'Hospitality Suite',
-          detail: 'District Hotel & Resort',
+          detail: 'District Hotel & Resort, Room 3',
           more: 'badge required to enter',
           time: '9pm - midnight',
         },
@@ -32,7 +32,7 @@ const Schedule = () => {
       events: [
         {
           name: 'All-Tournament Registration',
-          detail: 'Bowling center meeting room',
+          detail: 'Bowling center main lobby',
           more: '',
           time: '8am - 9am',
         },
@@ -50,7 +50,7 @@ const Schedule = () => {
         },
         {
           name: 'Hospitality Suite',
-          detail: 'District Hotel & Resort',
+          detail: 'District Hotel & Resort, Room 3',
           more: 'badge required to enter',
           time: '7pm - midnight',
         },
