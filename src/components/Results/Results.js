@@ -11,7 +11,7 @@ const Results = () => {
       { id: 'team', name: 'Team Event' },
       { id: 'doubles', name: 'Doubles Event' },
       { id: 'singles', name: 'Singles Event' },
-      { id: 'all_events', name: 'All Events' },
+      // { id: 'all_events', name: 'All Events' },
       { id: 'best_3_of_9', name: 'Best 3 of 9' },
     ],
     [
@@ -21,24 +21,24 @@ const Results = () => {
       { id: 'optional_scratch_d', name: 'Optional Scratch - Div D' },
       { id: 'optional_scratch_e', name: 'Optional Scratch - Div E' },
     ],
-    [
-      { id: 'scratch_masters_division_a', name: 'Scratch Masters - Div A' },
-      { id: 'scratch_masters_with_score_division_a', name: 'Scratch Masters w/ Score - Div A' },
-      { id: 'scratch_masters_division_b', name: 'Scratch Masters - Div B' },
-      { id: 'scratch_masters_with_score_division_b', name: 'Scratch Masters w/ Score - Div B' },
-      { id: 'scratch_masters_division_c', name: 'Scratch Masters - Div C' },
-      { id: 'scratch_masters_with_score_division_c', name: 'Scratch Masters w/ Score - Div C' },
-      { id: 'scratch_masters_division_d', name: 'Scratch Masters - Div D' },
-      { id: 'scratch_masters_with_score_division_d', name: 'Scratch Masters w/ Score - Div D' },
-      { id: 'scratch_masters_division_e', name: 'Scratch Masters - Div E' },
-      { id: 'scratch_masters_with_score_division_e', name: 'Scratch Masters w/ Score - Div E' },
-    ],
+    // [
+    //   { id: 'scratch_masters_division_a', name: 'Scratch Masters - Div A' },
+    //   { id: 'scratch_masters_with_score_division_a', name: 'Scratch Masters w/ Score - Div A' },
+    //   { id: 'scratch_masters_division_b', name: 'Scratch Masters - Div B' },
+    //   { id: 'scratch_masters_with_score_division_b', name: 'Scratch Masters w/ Score - Div B' },
+    //   { id: 'scratch_masters_division_c', name: 'Scratch Masters - Div C' },
+    //   { id: 'scratch_masters_with_score_division_c', name: 'Scratch Masters w/ Score - Div C' },
+    //   { id: 'scratch_masters_division_d', name: 'Scratch Masters - Div D' },
+    //   { id: 'scratch_masters_with_score_division_d', name: 'Scratch Masters w/ Score - Div D' },
+    //   { id: 'scratch_masters_division_e', name: 'Scratch Masters - Div E' },
+    //   { id: 'scratch_masters_with_score_division_e', name: 'Scratch Masters w/ Score - Div E' },
+    // ],
   ];
 
   return (
     <section className={`${styles.Results}`}>
       <h3 className={`section-heading`}>
-        2024 Tournament Results
+        2025 Tournament Results
       </h3>
 
       <Row className={'px-2 px-xl-0'}>
@@ -49,7 +49,7 @@ const Results = () => {
                 { resultSet.map((result, j) => {
                   return (
                     <ListGroup.Item key={j} className={`${styles.ResultItem} d-flex justify-content-between`}>
-                      <a href={`/results/2024/${result.id}.pdf`}
+                      <a href={`/results/2025/${result.id}.pdf`}
                          className={`${styles.ResultLink} mt-2`}>
                         {`${result.name}`}
                       </a>
