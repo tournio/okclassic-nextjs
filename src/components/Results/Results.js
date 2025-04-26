@@ -11,7 +11,7 @@ const Results = () => {
       { id: 'team', name: 'Team Event' },
       { id: 'doubles', name: 'Doubles Event' },
       { id: 'singles', name: 'Singles Event' },
-      // { id: 'all_events', name: 'All Events' },
+      { id: 'all_events', name: 'All Events' },
       { id: 'best_3_of_9', name: 'Best 3 of 9' },
     ],
     [
