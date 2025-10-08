@@ -7,7 +7,7 @@ const MainText = () => {
   return (
     <section className={`${styles.MainText}`}>
       <h3 className={`display-4 ${styles.Dates}`}>
-        April 11-13, 2025
+        April 10-12, 2026
       </h3>
       <h4 className={`display-6 ${styles.City}`}>
         Oklahoma City, OK

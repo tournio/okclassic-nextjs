@@ -4,9 +4,9 @@ import {REGISTER_URL} from "../../utils/misc";
 import styles from './Spotlight.module.scss';
 
 const Spotlight = () => {
-  // const prelimText = <p>
-  //   We&apos;re working hard putting together the 35th OKClassic, with several fun and fundraiser events happening in the meantime. Keep your eyes peeled for what we&apos;ve got cooking!
-  // </p>;
+  const prelimText = <p>
+    We&apos;re working hard putting together the next OKClassic, with several fun and fundraiser events happening in the meantime. Keep your eyes peeled for what we&apos;ve got cooking!
+  </p>;
 
   // const registrationOpen = (
   //   <>
@@ -29,28 +29,28 @@ const Spotlight = () => {
   //   </p>
   // );
 
-  const allDone = (
-    <div className={'row'}>
-      <div className={`col`}>
-        <p>
-          That&apos;s a wrap! What a great weekend of tournament bowling. We hope everyone had a fantastic time. We&apos;re already looking forward to 2026...
-        </p>
-        <p>
-          <a href={'/results'} className={`btn btn-info`}>
-            Results
-          </a>
-        </p>
-      </div>
-    </div>
-  );
+  // const allDone = (
+  //   <div className={'row'}>
+  //     <div className={`col`}>
+  //       <p>
+  //         That&apos;s a wrap! What a great weekend of tournament bowling. We hope everyone had a fantastic time. We&apos;re already looking forward to 2026...
+  //       </p>
+  //       <p>
+  //         <a href={'/results'} className={`btn btn-info`}>
+  //           Results
+  //         </a>
+  //       </p>
+  //     </div>
+  //   </div>
+  // );
 
   return (
     <section className={`${styles.Spotlight}`}>
       <div className={``}>
-        {/*{prelimText}*/}
+        {prelimText}
         {/*{registrationOpen}*/}
         {/*{thisWeekend}*/}
-        {allDone}
+        {/*{allDone}*/}
       </div>
     </section>
   );

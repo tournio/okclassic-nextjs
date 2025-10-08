@@ -7,7 +7,7 @@ const Rules = () => {
     {
       header: '',
       markdown: `
-OKCLASSIC 2025 is a USBC-certified tournament, open to bowlers of any gender identification, by invitation only. Each participant may enter only once and cash only once. The Tournament Director reserves the right to refuse any application.
+OKCLASSIC 2026 is a USBC-certified tournament, open to bowlers of any gender identification, by invitation only. Each participant may enter only once and cash only once. The Tournament Director reserves the right to refuse any application.
 
 The number of games for each event of Singles, Doubles &amp; Team will be a set of three. A team will consist of four members, any mix of genders. Partial team entries are acceptable, but must be flexible as to whom they bowl with, as long as they can be accommodated.
 
@@ -22,15 +22,15 @@ The Tournament Director reserves the right to dismiss and/or disqualify any bowl
       header: 'Entering Average',
       markdown: `
 1. Bowlers will use a combined (21 game minimum) standard composite average of:
-    1. USBC 2024-2025 Standard Composite Average;
+    1. USBC 2025-2026 Standard Composite Average;
     1. IGBO Tournament Average for the last 12 months, if available.
-1. If a bowler has no USBC 2024-2025 average and/or IGBO Tournament Average, the bowler must use an average calculated in the order listed below:
-    1. A composite of all current USBC certified league averages as of March 16, 2025, provided that a minimum of 21 games have been bowled across all leagues. It is the bowler&apos;s responsibility to provide standings sheets (signed by a league officer), or information to retrieve them online, for ALL leagues bowled as of March 16, 2025.
-    1. USBC 2023-2024 Standard Composite Average (minimum of 21 games).
+1. If a bowler has no USBC 2025-2026 average and/or IGBO Tournament Average, the bowler must use an average calculated in the order listed below:
+    1. A composite of all current USBC certified league averages as of March 15, 2026, provided that a minimum of 21 games have been bowled across all leagues. It is the bowler&apos;s responsibility to provide standings sheets (signed by a league officer), or information to retrieve them online, for ALL leagues bowled as of March 15, 2026.
+    1. USBC 2024-2025 Standard Composite Average (minimum of 21 games).
     1. If none of the above averages are available, then the bowler will use a 235 average for the tournament
 1. PBA/PWBA/Team USA members will use a minimum average of 210.
 1. Only 10-pin averages will be used.
-1. Youth and collegiate bowling averages will not be used for tournament averages.  Bowlers must have an adult league average of 21 games or more by March 16, 2025, or will bowl with a 235 average.
+1. Youth and collegiate bowling averages will not be used for tournament averages.  Bowlers must have an adult league average of 21 games or more by March 15, 2026, or will bowl with a 235 average.
 1. It is the bowler&apos;s responsibility to supply complete and accurate information.
 1. Per USBC Rule 319a, item 2: When the previous season’s average is used, and at the time of bowling an entrant has a current average for 21 or more games that is 10 pins or more higher than the prior season&apos;s average, the current average must be used.
 1. Per USBC Rule 319a, item 3: Bowlers are responsible for verifying his/her own average, whether submitted by the bowler, the team captain or others. If the submitted average is lower than required and results in a lower classification or more handicap, the bowler&apos;s score is disqualified. If the submitted average is higher than required, prize winnings will be based on the submitted average. In the case of a team of two or more bowlers, the averages will be combined to determine if the correct total is higher or lower than the submitted total.
@@ -68,8 +68,8 @@ The Tournament Director reserves the right to dismiss and/or disqualify any bowl
       header: 'Fees',
       markdown: `
 1. Only online registration will be accepted. Entry fees are payable online using *STRIPE*. This is the preferred method. Once registration is complete you will receive an invoice to pay through *STRIPE*.
-1. Entries received and paid in full at or before 11:59pm March 22, 2025, will pay the early entry fee of $120.00 per bowler. Entries received and/or paid for after that will have a $10 late fee applied.
-1. The official deadline for entries is 11:59pm March 30, 2025. Final payment due is 11:59 pm April 6, 2025.
+1. Entries received and paid in full at or before 11:59pm March 21, 2026, will pay the early entry fee of $120.00 per bowler. Entries received and/or paid for after that will have a $10 late fee applied.
+1. The official deadline for entries is 11:59pm March 29, 2026. Final payment due is 11:59 pm April 5, 2026.
 1. Applications are subject to return if tournament fills. No walk-ins, fax, e-mail or telephone entries will be accepted. Prize money is paid within 30 days of the close of the tournament.
 1. Entry Free Breakdown (All amounts are in US Dollars)
 
@@ -97,7 +97,7 @@ The Tournament Director reserves the right to dismiss and/or disqualify any bowl
       markdown: `
 1. The entry fee for this optional event is $40.00.
 1. This event uses the same average divisions as the Mace Adams Divisional Shootout.
-1. This event uses the bowlers score sans handicao from all games bowled during the Singles, Doubles, and Team events.
+1. This event uses the bowlers score sans handicap from all games bowled during the Singles, Doubles, and Team events.
 1. Payout will be awarded for **High Scratch Game**, **High Scratch Series**, and **High Scratch All-Events** for each division.
 1. Payout ratio will be no less than 1 in 8, and will payout 100% of the entry fees.
 `,
@@ -121,7 +121,7 @@ The Tournament Director reserves the right to dismiss and/or disqualify any bowl
     {
       header: '9-Pin No Tap Tournament Rules',
       markdown: `
-1. We will be offering a 9-Pin No-Tap tournament on Friday, April 11th, 2025.
+1. We will be offering a 9-Pin No-Tap tournament on Friday, April 10th, 2026.
 1. Sign-up will be between 5:00 p.m. and 6:45 p.m. during OKCLASSIC registration at Windsor Lanes. The 9
 Pin-No-Tap Tournament will begin at 7:00 p.m.
 1. Participation will be available to all participants and friends of OKCLASSIC. Bowling in the OKCLASSIC

@@ -22,12 +22,12 @@ const Committee = () => {
       email: 'secretary@okclassic.com',
     },
     {
-      role: 'Fundraising',
-      name: 'Gary Jordan',
+      role: 'Fundraising & Marketing',
+      name: 'Cecil Smith',
     },
     {
-      role: 'Raffles',
-      name: 'Gary Jordan',
+      role: 'Raffles & Fundraising',
+      name: 'Justin Brundies & Felicia Gayle',
     },
     {
       role: 'Technologist',

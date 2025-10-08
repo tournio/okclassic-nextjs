@@ -33,13 +33,14 @@ const Hotel = () => {
   const hotelUrl = 'https://www.districthotelok.com/';
   const hotelName = 'The District';
   const features = [
-    '$79/night room rate for OKC bowlers',
+    '$89/night room rate for OKC bowlers',
     'Hospitality Suite Friday and Saturday nights',
     'Two heated outdoor resort-style pools',
     'Jaw-dropping theme rooms and suites',
     'Elevated bars: the OKC Eagle and The County Line',
     'Free parking',
     'Free Wi-fi',
+    'Option for 5pm late checkout',
   ];
   const photoDeets = [
     {alt: 'Hotel sign', file: hotel1},
@@ -104,7 +105,7 @@ const Hotel = () => {
               </strong>
               {' '}to get the special rate, making sure to use the discount code {' '}
               <strong>
-                OKCLASSIC
+                OKCLASSIC26
               </strong>. We expect our block to sell out, so be sure to get your reservation in early! All guests must be 21+.
             </p>
           </Col>
