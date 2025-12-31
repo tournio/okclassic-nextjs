@@ -12,8 +12,8 @@ const Committee = () => {
       email: 'director@okclassic.com',
     },
     {
-      role: 'Co-Treasurers',
-      name: 'George Noe, Bobby McKaughan',
+      role: 'Treasurer',
+      name: 'George Noe',
       email: 'treasurer@okclassic.com',
     },
     {
@@ -22,12 +22,8 @@ const Committee = () => {
       email: 'secretary@okclassic.com',
     },
     {
-      role: 'Fundraising & Marketing',
-      name: 'Cecil Smith',
-    },
-    {
-      role: 'Raffles & Fundraising',
-      name: 'Justin Brundies & Felicia Gayle',
+      role: 'Marketing & Fundraising',
+      name: 'Justin Brundies, Cecil Smith, and Felicia Renzelman',
     },
     {
       role: 'Technologist',
