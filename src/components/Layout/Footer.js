@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
         <p className={`col-12 text-center pt-3`}>
           <span>
-            &copy; 2024&nbsp;
+            &copy; 2026&nbsp;
           </span>
           <span>
             OKClassic
