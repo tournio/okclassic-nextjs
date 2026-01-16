@@ -8,4 +8,4 @@ export const useClientReady = () => {
   return ready;
 }
 
-export const REGISTER_URL = 'https://www.tourn.io/';
+export const REGISTER_URL = 'https://go.signmeup.io/?eventid=58';
