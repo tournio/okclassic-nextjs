@@ -60,7 +60,7 @@ const Rules = () => {
       header: 'Eligibility',
       markdown: `
 1.  Entrant must be a member of USBC, and provide proof of membership and certification number with their entry. Non-members must pay a Participation Fee of $5.00 to participate (USBC Rule 301b).
-1. Entrants must be a member of an IGBO Member League, or current IGBO Associate Member. If not already an IGBO member, entrant must apply for Associate Membership, and pay the $25.00 IGBO fee prior to bowling.
+1. Entrants must be a member of an IGBO Member League, or current IGBO Associate Member. If not already an IGBO member, entrant must apply for Associate Membership, and pay the $30.00 IGBO fee prior to bowling.
 1. Only one (1) PBA/PWBA/Team USA member is allowed per team.
 1. Substitutes will be allowed to participate at the Tournament Director’s discretion. Their average will be determined by the *Entering Average* guidelines.
 1. The team captain (for team submissions) or individuals&apos; online submission of the entry form acknowledging they have read the rules. All other USBC rules will apply.

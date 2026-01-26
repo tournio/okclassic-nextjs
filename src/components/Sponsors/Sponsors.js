@@ -3,8 +3,9 @@ import Link from 'next/link';
 
 import classes from './Sponsors.module.scss';
 
-import igbo from '../../images/sponsors/igbo600w.png';
-import storm from '../../images/sponsors/storm-black.png';
+// import igbo from '../../images/sponsors/igbo600w.png';
+import igbo from '../../images/sponsors/igbo-logo-full-size.png';
+import storm from '../../images/sponsors/storm-logo.png';
 import usbc from '../../images/sponsors/usbc.png';
 
 const Sponsors = () => {
