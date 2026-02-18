@@ -57,7 +57,7 @@ const Navigation = () => {
                   path: REGISTER_URL,
                   text: 'Register',
                   title: 'Register for the tournament',
-                  // disabled: true,
+                  disabled: true,
                   // title: 'Registration is not yet available',
                 })}
 

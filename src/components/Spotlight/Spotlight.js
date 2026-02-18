@@ -11,13 +11,13 @@ const Spotlight = () => {
   const registrationOpen = (
     <>
       <p>
-        Registration is now open!
+        Tournament entries are now sold out! Registered bowlers can still pay their entry fees at the link below.
       </p>
       <p>
         <a href={REGISTER_URL}
            className={`btn btn-lg btn-primary`}
         >
-          Register Online
+          Pay Entry Fees
         </a>
       </p>
     </>
