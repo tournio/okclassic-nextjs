@@ -8,20 +8,35 @@ const Spotlight = () => {
   //   We&apos;re working hard putting together the next OKClassic, with several fun and fundraiser events happening in the meantime. Keep your eyes peeled for what we&apos;ve got cooking!
   // </p>;
 
-  const registrationOpen = (
-    <>
-      <p>
-        Tournament entries are now sold out! Registered bowlers can still pay their entry fees at the link below.
-      </p>
-      <p>
-        <a href={REGISTER_URL}
-           className={`btn btn-lg btn-primary`}
-        >
-          Pay Entry Fees
-        </a>
-      </p>
-    </>
-  );
+  // const registrationOpen = (
+  //   <>
+  //     <p>
+  //       Tournament registration is open!
+  //     </p>
+  //     <p>
+  //       <a href={REGISTER_URL}
+  //          className={`btn btn-lg btn-primary`}
+  //       >
+  //         Pay Entry Fees
+  //       </a>
+  //     </p>
+  //   </>
+  // );
+
+  // const soldOut = (
+  //   <>
+  //     <p>
+  //       Tournament entries are now sold out! Registered bowlers can still pay their entry fees at the link below.
+  //     </p>
+  //     <p>
+  //       <a href={REGISTER_URL}
+  //          className={`btn btn-lg btn-primary`}
+  //       >
+  //         Pay Entry Fees
+  //       </a>
+  //     </p>
+  //   </>
+  // );
 
   // const thisWeekend = (
   //   <p>
@@ -29,28 +44,28 @@ const Spotlight = () => {
   //   </p>
   // );
 
-  // const allDone = (
-  //   <div className={'row'}>
-  //     <div className={`col`}>
-  //       <p>
-  //         That&apos;s a wrap! What a great weekend of tournament bowling. We hope everyone had a fantastic time. We&apos;re already looking forward to 2026...
-  //       </p>
-  //       <p>
-  //         <a href={'/results'} className={`btn btn-info`}>
-  //           Results
-  //         </a>
-  //       </p>
-  //     </div>
-  //   </div>
-  // );
+  const allDone = (
+    <div className={'row'}>
+      <div className={`col`}>
+        <p>
+          That&apos;s a wrap! What a great weekend of tournament bowling. We hope everyone had a fantastic time. We&apos;re already looking forward to 2027...
+        </p>
+        <p>
+          <a href={'/results'} className={`btn btn-info`}>
+            Results
+          </a>
+        </p>
+      </div>
+    </div>
+  );
 
   return (
     <section className={`${styles.Spotlight}`}>
       <div className={``}>
         {/*{prelimText}*/}
-        {registrationOpen}
+        {/*{registrationOpen}*/}
         {/*{thisWeekend}*/}
-        {/*{allDone}*/}
+        {allDone}
       </div>
     </section>
   );

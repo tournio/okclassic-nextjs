@@ -38,7 +38,7 @@ const Results = () => {
   return (
     <section className={`${styles.Results}`}>
       <h3 className={`section-heading`}>
-        2025 Tournament Results
+        2026 Tournament Results
       </h3>
 
       <Row className={'px-2 px-xl-0'}>
@@ -49,12 +49,12 @@ const Results = () => {
                 { resultSet.map((result, j) => {
                   return (
                     <ListGroup.Item key={j} className={`${styles.ResultItem} d-flex justify-content-between`}>
-                      <a href={`/results/2025/${result.id}.pdf`}
+                      <a href={`/results/2026/${result.id}.pdf`}
                          className={`${styles.ResultLink} mt-2`}>
                         {`${result.name}`}
                       </a>
                       <Button variant='outline-secondary'
-                              href={`/results/2025/${result.id}.pdf`}
+                              href={`/results/2026/${result.id}.pdf`}
                               title='Download PDF'>
                         <i className="bi-download" aria-hidden={true}></i>
                       </Button>
